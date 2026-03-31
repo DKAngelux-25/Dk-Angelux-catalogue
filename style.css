@@ -22,7 +22,7 @@ header {
     border-bottom: 3px solid var(--primary-blue);
 }
 
-.logo { height: 60px; }
+.logo { height: 100px; }
 
 /* Panier flottant */
 .cart-floating {
