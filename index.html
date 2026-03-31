@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dk Angelux - Catalogue</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div id="cart-status" class="cart-floating">
+            <i class="fas fa-shopping-basket"></i>
+            <span id="cart-count">0</span> articles | <span id="cart-total">0</span> FCFA
+        </div>
+        <img src="logo-dk-angelux.png" alt="Dk Angelux Logo" class="logo">
+    </header>
+
+    <section class="search-section">
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher dans la boutique en ligne...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </section>
+
+    <nav class="categories-nav">
+        <div class="category-item" onclick="filterCategory('promo')">
+            <div class="circle promo"><i class="fas fa-percentage"></i></div>
+            <span>Promotions</span>
+        </div>
+        <div class="category-item" onclick="filterCategory('maison')">
+            <div class="circle"><i class="fas fa-couch"></i></div>
+            <span>Maison</span>
+        </div>
+        </nav>
+
+    <main id="product-grid" class="product-grid">
+        </main>
+
+    <a href="#" id="whatsapp-order" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i> Commander
+    </a>
+
+    <footer>
+        <p>Quartier LOGOTÉ – SAGBADO, LOMÉ-TOGO</p>
+        <p>Contact : +228 70 00 93 06</p>
+        <strong>Dk Angelux – Le choix vous distingue</strong>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
