@@ -12,13 +12,11 @@ const products = [
         isMarketplace: false
     },
     {
-        id: 2,
-        name: "Perceuse Bosch Professional",
-        category: "bricolage",
-        image: "perceuse.jpg",
-        options: [
-            { type: "Unité", price: 45000, unit: "1 pièce" }
-        ],
-        isMarketplace: true // Badge spécial partenaire
-    }
+    id: 2,
+    name: "Perceuse Bosch Professional",
+    category: "bricolage",
+    image: "images/perceuse.jpg", // Ajoute le chemin de ton dossier image
+    isMarketplace: true, 
+    options: [{ type: "Unité", price: 45000, unit: "1 pièce" }]
+}
 ];
