@@ -183,3 +183,67 @@ footer {
     padding: 30px 20px;
     margin-top: 50px;
 }
+/* ============================================================
+   SECTION MARKETPLACE & CARTES PRODUITS
+   ============================================================ */
+
+/* Conteneur individuel d'un produit */
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px; /* Coins un peu plus arrondis pour un look moderne */
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: transform 0.2s; /* Petit effet au survol */
+}
+
+.product-card:hover {
+    transform: translateY(-5px); /* La carte se soulève légèrement */
+}
+
+/* Badge pour les produits des partenaires */
+.badge-mkt {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #28a745; /* Vert pour inspirer la confiance */
+    color: white;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+/* Style pour le bouton de commande WhatsApp flottant */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background: #25D366; /* Vert officiel WhatsApp */
+    color: white;
+    padding: 15px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    z-index: 9999;
+    transition: background 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background: #128C7E;
+    color: white;
+}
+
+/* Icône à l'intérieur du bouton */
+.whatsapp-btn i {
+    font-size: 20px;
+}
