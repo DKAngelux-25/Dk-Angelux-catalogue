@@ -53,6 +53,14 @@ function addToCart(id) {
     saveCart();
     alert(`${product.name} ajouté !`);
 }
+function filterCategory(cat) {
+    // 1. Afficher une image d'en-tête selon la catégorie
+    const header = document.getElementById('category-header');
+    header.innerHTML = `<img src="images/banner-${cat}.jpg" style="width:100%; height:200px; object-fit:cover;">`;
+    
+    // 2. Filtrer les produits
+    displayProducts(cat);
+}
 
 // 4. Envoi WhatsApp
 function sendWhatsApp() {
