@@ -22,23 +22,7 @@
             <input type="text" placeholder="Rechercher dans la boutique en ligne...">
             <button><i class="fas fa-search"></i></button>
         </div>
-    </section>
-    <section class="carousel-container">
-    <div class="carousel-slide fade">
-        <img src="images/pub.jpg" alt="Promotion Pâques">
-        <div class="carousel-caption">Jusqu'à -34% sur la gamme Favorina</div>
-    </div>
-
-    <div class="carousel-slide fade">
-        <img src="nouveautes.jpg" alt="Nouveautés">
-        <div class="carousel-caption">Découvrez nos nouveaux arrivages !</div>
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</section>
-
-    <nav class="categories-nav">
+        <nav class="categories-nav">
         <div class="category-item" onclick="filterCategory('promo')">
             <div class="circle promo"><i class="fas fa-percentage"></i></div>
             <span>Promotions</span>
@@ -56,6 +40,22 @@
     <span>Alimentation</span>
 </div>
         </nav>
+    </section>
+    <section class="carousel-container">
+    <div class="carousel-slide fade">
+        <img src="images/pub.jpg" alt="Promotion Pâques">
+        <div class="carousel-caption">Jusqu'à -34% sur la gamme Favorina</div>
+    </div>
+
+    <div class="carousel-slide fade">
+        <img src="nouveautes.jpg" alt="Nouveautés">
+        <div class="carousel-caption">Découvrez nos nouveaux arrivages !</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</section>
+
     <div id="category-header"></div>
 <main id="product-grid" class="product-grid"></main>
 
