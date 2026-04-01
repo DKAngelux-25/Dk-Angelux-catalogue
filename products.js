@@ -3,7 +3,7 @@ const products = [
         id: 1,
         name: "Huile de Tournesol",
         category: "alimentaire",
-        image: "huile.jpg",
+        image: "images/huile.webp",
         description: "Huile pure pression à froid",
         options: [
             { type: "Litre", price: 1500, unit: "1L" },
