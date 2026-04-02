@@ -2,7 +2,7 @@ const products = [
     {
         id: 1,
         name: "Huile de Tournesol",
-        category: "Alimentation",
+        category: "alimentaire", // ✅ corrigé
         image: "images/huile.webp",
         description: "Huile pure pression à froid",
         options: [
@@ -12,11 +12,11 @@ const products = [
         isMarketplace: false
     },
     {
-    id: 2,
-    name: "Perceuse Bosch Professional",
-    category: "bricolage",
-    image: "images/perceuse.jpg", // Ajoute le chemin de ton dossier image
-    isMarketplace: true, 
-    options: [{ type: "Unité", price: 45000, unit: "1 pièce" }]
-}
+        id: 2,
+        name: "Perceuse Bosch Professional",
+        category: "bricolage", // ✅ déjà bon
+        image: "images/perceuse.jpg",
+        isMarketplace: true, 
+        options: [{ type: "Unité", price: 45000, unit: "1 pièce" }]
+    }
 ];
