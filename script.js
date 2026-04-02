@@ -59,7 +59,6 @@ function filterCategory(cat) {
     if (promoCarousel) {
         promoCarousel.style.display = 'none';
     }
-}
     function resetHome() {
     // 1. On remontre la publicité
     const promoCarousel = document.querySelector('.carousel-container');
