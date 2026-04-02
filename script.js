@@ -59,6 +59,19 @@ function filterCategory(cat) {
     if (promoCarousel) {
         promoCarousel.style.display = 'none';
     }
+    function resetHome() {
+    // 1. On remontre la publicité
+    const promoCarousel = document.querySelector('.carousel-container');
+    if (promoCarousel) {
+        promoCarousel.style.display = 'block';
+    }
+
+    // 2. On vide l'en-tête de catégorie
+    document.getElementById('category-header').innerHTML = '';
+
+    // 3. On réaffiche tous les produits
+    displayProducts('all');
+}
 
     // 2. On affiche l'image d'en-tête de la catégorie
     const header = document.getElementById('category-header');
