@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>f
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dk Angelux - Catalogue</title>
@@ -20,26 +20,33 @@
             <input type="text" placeholder="Rechercher dans la boutique en ligne...">
             <button><i class="fas fa-search"></i></button>
         </div>
-    </header>
+<header>
+    <div id="cart-status" class="cart-floating">
+        <i class="fas fa-shopping-basket"></i>
+        <span id="cart-count">0</span> articles | <span id="cart-total">0</span> FCFA
+    </div>
 
-   
-        <nav class="categories-nav">
-        <div class="category-item" onclick="filterCategory('promo')">
-            <div class="circle promo"><i class="fas fa-percentage"></i></div>
-            <span>Promotions</span>
+    <img src="images/logo-dk-angelux.png" alt="Logo" class="logo">
+
+    <section class="search-section">
+        <div class="search-bar">
+            <input type="text" placeholder="Rechercher...">
+            <button><i class="fas fa-search"></i></button>
         </div>
-        <div class="category-item" onclick="filterCategory('maison')">
-            <div class="circle"><i class="fas fa-couch"></i></div>
-            <span>Maison</span>
-        </div>
-        <div class="category-item" onclick="filterCategory('bricolage')">
-    <div class="circle"><i class="fas fa-tools"></i></div>
-    <span>Bricolage</span>
-</div>
-<div class="category-item" onclick="filterCategory('alimentaire')">
-    <div class="circle"><i class="fas fa-apple-alt"></i></div>
-    <span>Alimentation</span>
-</div>
+    </section>
+</header>
+
+<nav class="categories-nav">
+    <div class="category-item" onclick="filterCategory('alimentaire')">
+        <div class="circle"><i class="fas fa-apple-alt"></i></div>
+        <span>Alimentation</span>
+    </div>
+
+    <div class="category-item" onclick="filterCategory('bricolage')">
+        <div class="circle"><i class="fas fa-tools"></i></div>
+        <span>Bricolage</span>
+    </div>
+</nav>
 <div class="category-item" onclick="filterCategory('Liqu..& Bonss..')">
     <div class="circle"><i class="fas fa-wine-bottle"></i></div>
     <span>Liqu.. & boiss..</span>
@@ -78,9 +85,6 @@
     <div id="category-header"></div>
 <main id="product-grid" class="product-grid"></main>
 
-    <main id="product-grid" class="product-grid">
-        </main>
-
     <a href="javascript:void(0)" onclick="sendWhatsApp()" class="whatsapp-btn">
     <i class="fab fa-whatsapp"></i> Commander
 </a>
@@ -91,6 +95,9 @@
         <strong>Dk Angelux – Le choix vous distingue</strong>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
 </body>
 </html>
