@@ -93,6 +93,10 @@ body {
     padding: 15px 10px;
     gap: 20px;
     justify-content: center;
+    /* Ajoute ces lignes pour fixer la barre sous le header */
+    position: sticky;
+    top: 93px; /* Ajuste ce chiffre selon la hauteur de ton header */
+    z-index: 999;
 }
 
 .category-item {
