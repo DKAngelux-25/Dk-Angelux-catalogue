@@ -215,3 +215,30 @@ footer {
     font-weight: bold;
     color: var(--primary-blue);
 }
+.cart-controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column; /* Les boutons l'un sur l'autre pour mobile */
+    gap: 10px;
+    z-index: 2000;
+}
+
+.clear-btn {
+    background: #e2001a; /* Rouge DK */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.whatsapp-btn {
+    position: static; /* On enlève le fixed car le parent l'est déjà */
+    display: inline-block;
+    text-align: center;
+}
