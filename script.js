@@ -120,6 +120,14 @@ function sendWhatsApp() {
         location.reload(); // On recharge la page pour revenir à l'accueil
     }, 1000);
 }
+function clearCart() {
+    if (confirm("Voulez-vous vraiment vider votre panier ?")) {
+        cart = []; // On vide la variable
+        localStorage.removeItem('dk_cart'); // On vide la mémoire du navigateur
+        updateCartHeader(); // On remet les compteurs à 0
+        alert("Le panier a été vidé.");
+    }
+}
 
 let slideIndex = 1;
 showSlides(slideIndex);
