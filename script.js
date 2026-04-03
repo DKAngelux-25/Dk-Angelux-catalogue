@@ -22,6 +22,7 @@ function displayProducts(filter = 'all') {
                 ${product.options.map((opt, index) => `<option value="${index}">${opt.type} (${opt.unit})</option>`).join('')}
             </select>
             <p class="price"><span id="price-${product.id}">${product.options[0].price}</span> FCFA</p>
+            <input type="number" id="qty-${product.id}" value="1" min="1" style="width: 50px; margin-bottom: 10px; padding: 5px;">
             <button onclick="addToCart(${product.id})">Ajouter au panier</button>
         `;
         grid.appendChild(card);
