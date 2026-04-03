@@ -68,7 +68,7 @@ function filterCategory(cat) {
     const header = document.getElementById('category-header');
     header.innerHTML = `
         <div class="category-banner-wrapper">
-            <img src="images/banner-${cat}.png" alt="Rayon ${cat}">
+            <img src="images/banner-${cat}.webp" alt="Rayon ${cat}">
             <button onclick="resetHome()" class="btn-back">← Retour à l'accueil</button>
         </div>
     `;
