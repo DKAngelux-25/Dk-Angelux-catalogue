@@ -42,17 +42,20 @@ function addToCart(id) {
     const product = products.find(p => p.id === id);
     const select = document.getElementById(`select-${id}`);
     const selectedOption = product.options[select.value];
+    // On récupère la quantité tapée par l'utilisateur
+    const quantity = parseInt(document.getElementById(`qty-${id}`).value) || 1;
 
     const item = {
         name: product.name,
         type: selectedOption.type,
         price: selectedOption.price,
-        qty: 1
+        qty: quantity // On utilise la quantité saisie
     };
 
     cart.push(item);
     saveCart();
-    alert(`${product.name} ajouté !`);
+    updateCartHeader(); // On appelle la mise à jour du bandeau
+    alert(`${quantity}x ${product.name} ajouté !`);
 }
 function filterCategory(cat) {
     // 1. On cache la publicité
@@ -123,8 +126,29 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "block";
 }
 
+
 // Auto-play (optionnel)
 setInterval(() => { plusSlides(1); }, 5000);
+function updateCartHeader() {
+    let totalQty = 0;
+    let totalPrice = 0;
+
+    cart.forEach(item => {
+        totalQty += item.qty;
+        totalPrice += (item.price * item.qty);
+    });
+
+    // On met à jour les textes dans le HTML
+    document.getElementById('cart-count').innerText = totalQty;
+    document.getElementById('cart-total').innerText = totalPrice;
+}
+
+function saveCart() {
+    localStorage.setItem('dk_cart', JSON.stringify(cart));
+}
+
+// Appeler au chargement pour afficher le panier actuel si la page est rafraîchie
+updateCartHeader();
 
 // Initialisation
 displayProducts();
