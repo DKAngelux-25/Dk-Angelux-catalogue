@@ -94,18 +94,31 @@ function resetHome() {
 
 // 4. Envoi WhatsApp
 function sendWhatsApp() {
+    if (cart.length === 0) {
+        alert("Votre panier est vide !");
+        return;
+    }
+
     let message = "Bonjour Dk Angelux, voici ma commande :\n\n";
     let total = 0;
 
     cart.forEach(item => {
-        message += `- ${item.qty}x ${item.name} (${item.type}) : ${item.price} FCFA\n`;
-        total += item.price;
+        message += `- ${item.qty}x ${item.name} (${item.type}) : ${item.price * item.qty} FCFA\n`;
+        total += (item.price * item.qty);
     });
 
     message += `\n*Total : ${total} FCFA*\nMode : Paiement à la livraison`;
     
     const url = `https://wa.me/22870009306?text=${encodeURIComponent(message)}`;
+    
+    // 1. Ouvre WhatsApp
     window.open(url, '_blank');
+
+    // 2. Réinitialisation automatique après 1 seconde
+    setTimeout(() => {
+        clearCart(); // On vide tout
+        location.reload(); // On recharge la page pour revenir à l'accueil
+    }, 1000);
 }
 
 let slideIndex = 1;
