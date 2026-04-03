@@ -54,24 +54,11 @@ function addToCart(id) {
     alert(`${product.name} ajouté !`);
 }
 function filterCategory(cat) {
-    // 1. On cache la bannière de publicité (le carrousel)
+    // 1. On cache la publicité
     const promoCarousel = document.querySelector('.carousel-container');
     if (promoCarousel) {
         promoCarousel.style.display = 'none';
     }
-    function resetHome() {
-    // 1. On remontre la publicité
-    const promoCarousel = document.querySelector('.carousel-container');
-    if (promoCarousel) {
-        promoCarousel.style.display = 'block';
-    }
-
-    // 2. On vide l'en-tête de catégorie
-    document.getElementById('category-header').innerHTML = '';
-
-    // 3. On réaffiche tous les produits
-    displayProducts('all');
-}
 
     // 2. On affiche l'image d'en-tête de la catégorie
     const header = document.getElementById('category-header');
@@ -84,6 +71,21 @@ function filterCategory(cat) {
     
     // 3. Filtrer les produits
     displayProducts(cat);
+}
+
+// CETTE FONCTION DOIT ÊTRE BIEN SÉPARÉE CI-DESSOUS
+function resetHome() {
+    // 1. On remontre la publicité
+    const promoCarousel = document.querySelector('.carousel-container');
+    if (promoCarousel) {
+        promoCarousel.style.display = 'block';
+    }
+
+    // 2. On vide l'en-tête de catégorie
+    document.getElementById('category-header').innerHTML = '';
+
+    // 3. On réaffiche tous les produits
+    displayProducts('all');
 }
 
 // 4. Envoi WhatsApp
