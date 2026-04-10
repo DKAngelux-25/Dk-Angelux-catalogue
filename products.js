@@ -129,7 +129,7 @@ const products = [
         image: "images/mais.webp",
         description: "Maïs sec pour consommation",
         options: [
-            { type: "bol", price: 650, unit: "1bol" }
+            { type: "bol", price: 650, unit: "1bol" },
             { type: "Kg", price: 350, unit: "1kg" }
         ],
         isMarketplace: false
