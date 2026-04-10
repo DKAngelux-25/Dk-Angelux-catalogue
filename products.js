@@ -20,7 +20,7 @@ const products = [
         options: [{ type: "Unité", price: 45000, unit: "1 pièce" }]
     },
    {
-        id: 2,
+        id: 3,
         name: "Riz Gino",
         category: "alimentaire",
         image: "images/riz-gino.webp",
@@ -33,7 +33,7 @@ const products = [
         isMarketplace: false
     },
     {
-        id: 3,
+        id: 4,
         name: "Riz Sister Grace",
         category: "alimentaire",
         image: "images/riz-sister-grace.webp",
@@ -46,7 +46,7 @@ const products = [
         isMarketplace: false
     },
     {
-        id: 4,
+        id: 5,
         name: "Riz Délice",
         category: "alimentaire",
         image: "images/riz-delice.webp",
@@ -57,7 +57,7 @@ const products = [
         isMarketplace: false
     },
     {
-        id: 5,
+        id: 6,
         name: "Riz Rizière",
         category: "alimentaire",
         image: "images/riz-riziere.webp",
@@ -68,7 +68,7 @@ const products = [
         isMarketplace: false
     },
     {
-        id: 6,
+        id: 7,
         name: "Riz Thaïlandais",
         category: "alimentaire",
         image: "images/riz-thai.webp",
@@ -79,7 +79,7 @@ const products = [
         isMarketplace: false
     },
     {
-        id: 7,
+        id: 8,
         name: "Couscous Dari",
         category: "alimentaire",
         image: "images/couscous-dari.webp",
@@ -90,7 +90,7 @@ const products = [
         isMarketplace: false
     },
     {
-        id: 8,
+        id: 9,
         name: "Riz Ibo",
         category: "alimentaire",
         image: "images/riz-ibo.webp",
@@ -101,7 +101,7 @@ const products = [
         isMarketplace: false
     },
     {
-        id: 9,
+        id: 10,
         name: "Riz Simple Standard",
         category: "alimentaire",
         image: "images/riz-standard.webp",
@@ -112,7 +112,7 @@ const products = [
         isMarketplace: false
     },
     {
-        id: 10,
+        id: 11,
         name: "Riz Simple Meilleur",
         category: "alimentaire",
         image: "images/riz-meilleur.webp",
