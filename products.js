@@ -1202,8 +1202,7 @@ const products = [
     ],
     isMarketplace: false
 },
-    [
-    {
+ {
         id: 110,
         name: "Ralonge",
         category: "bricolage",
@@ -1490,6 +1489,266 @@ const products = [
         description: "Produit de bricolage",
         options: [{ type: "Unité", price: 0, unit: "" }],
         isMarketplace: false
+    },
+    {
+        id: 142,
+        name: "Fourchette jetable",
+        category: "bricolage",
+        image: "images/fourchette_jetable.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 143,
+        name: "Cuillère jetable",
+        category: "bricolage",
+        image: "images/cuillere_jetable.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 144,
+        name: "Assiette jetable",
+        category: "bricolage",
+        image: "images/assiette_jetable.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 145,
+        name: "Taken away",
+        category: "bricolage",
+        image: "images/take_away.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 146,
+        name: "Pipette",
+        category: "bricolage",
+        image: "images/pipette.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 147,
+        name: "Pipette",
+        category: "bricolage",
+        image: "images/pipette.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 148,
+        name: "Verre jetable",
+        category: "bricolage",
+        image: "images/verre_jetable.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 149,
+        name: "Papiers aluminium",
+        category: "bricolage",
+        image: "images/papier_aluminium.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 150,
+        name: "Papiers Sopala",
+        category: "bricolage",
+        image: "images/papier_sopala.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 151,
+        name: "Papier torchon",
+        category: "bricolage",
+        image: "images/papier_torchon.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 152,
+        name: "Papiers mouchoirs",
+        category: "bricolage",
+        image: "images/papiers_mouchoirs.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 153,
+        name: "Papier hygiénique Clean soft",
+        category: "bricolage",
+        image: "images/papier_clean_soft.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 154,
+        name: "Papier hygiénique Pride",
+        category: "bricolage",
+        image: "images/papier_pride.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 155,
+        name: "Papier hygiénique Garden",
+        category: "bricolage",
+        image: "images/papier_garden.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 156,
+        name: "Papier hygiénique Aqua Soft",
+        category: "bricolage",
+        image: "images/papier_aqua_soft.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 157,
+        name: "Tampon Naval girl",
+        category: "bricolage",
+        image: "images/tampon_naval.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 158,
+        name: "Tampon Maxplus",
+        category: "bricolage",
+        image: "images/tampon_maxplus.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 159,
+        name: "Tampon Softcare",
+        category: "bricolage",
+        image: "images/tampon_softcare.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 160,
+        name: "Tampon Softcare",
+        category: "bricolage",
+        image: "images/tampon_softcare.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 161,
+        name: "Ventaille Simple",
+        category: "bricolage",
+        image: "images/ventaille_simple.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 162,
+        name: "Ventaille",
+        category: "bricolage",
+        image: "images/ventaille.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 163,
+        name: "Plastique",
+        category: "bricolage",
+        image: "images/plastique.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 164,
+        name: "Pate dentifrice Signal",
+        category: "bricolage",
+        image: "images/dentifrice_signal.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 165,
+        name: "Pate dentifrice Longrich",
+        category: "bricolage",
+        image: "images/dentifrice_longrich.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 166,
+        name: "Dentifrice Colgate",
+        category: "bricolage",
+        image: "images/dentifrice_colgate.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 167,
+        name: "Dentifrice Aquafresh",
+        category: "bricolage",
+        image: "images/dentifrice_aquafresh.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 168,
+        name: "Dentifrice Maxam gm",
+        category: "bricolage",
+        image: "images/dentifrice_maxam_gm.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 169,
+        name: "Dentifrice Maxam pm",
+        category: "bricolage",
+        image: "images/dentifrice_maxam_pm.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 170,
+        name: "Javel gm",
+        category: "bricolage",
+        image: "images/javel_gm.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
     }
-]
 ];
