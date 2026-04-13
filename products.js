@@ -442,5 +442,764 @@ const products = [
             { type: "Sachet", price: 500, unit: "1" }
         ],
         isMarketplace: false
-    }
+    },
+    {
+    id: 41,
+    name: "Bouillon curry",
+    category: "alimentaire",
+    image: "images/bouillon-curry.webp",
+    description: "Bouillon saveur curry",
+    options: [
+        { type: "Unité", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 42,
+    name: "Huile Tournesol Lesueur 1 L",
+    category: "alimentaire",
+    image: "images/huile-lesueur-1l.webp",
+    description: "Huile de tournesol 1L",
+    options: [
+        { type: "Bouteille", price: 0, unit: "1L" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 43,
+    name: "Huile Tournesol Lesueur 5 L",
+    category: "alimentaire",
+    image: "images/huile-lesueur-5l.webp",
+    description: "Huile de tournesol 5L",
+    options: [
+        { type: "Bidon", price: 0, unit: "5L" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 44,
+    name: "Huile Tournesol Bonita 1L",
+    category: "alimentaire",
+    image: "images/huile-bonita-1l.webp",
+    description: "Huile de tournesol 1L",
+    options: [
+        { type: "Bouteille", price: 0, unit: "1L" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 45,
+    name: "Huile Tournesol Bonita 5 L",
+    category: "alimentaire",
+    image: "images/huile-bonita-5l.webp",
+    description: "Huile de tournesol 5L",
+    options: [
+        { type: "Bidon", price: 0, unit: "5L" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 46,
+    name: "Huile Tournesol Aïcha 1 L",
+    category: "alimentaire",
+    image: "images/huile-aicha-1l.webp",
+    description: "Huile de tournesol 1L",
+    options: [
+        { type: "Bouteille", price: 0, unit: "1L" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 47,
+    name: "Huile Tournesol Aïcha 5L",
+    category: "alimentaire",
+    image: "images/huile-aicha-5l.webp",
+    description: "Huile de tournesol 5L",
+    options: [
+        { type: "Bidon", price: 0, unit: "5L" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 48,
+    name: "Huile Tournesol Ok 1L",
+    category: "alimentaire",
+    image: "images/huile-ok-1l.webp",
+    description: "Huile de tournesol 1L",
+    options: [
+        { type: "Bouteille", price: 0, unit: "1L" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 49,
+    name: "Huile Tournesol Ok 5 L",
+    category: "alimentaire",
+    image: "images/huile-ok-5l.webp",
+    description: "Huile de tournesol 5L",
+    options: [
+        { type: "Bidon", price: 0, unit: "5L" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 50,
+    name: "Huile Tournesol Gino 1 L",
+    category: "alimentaire",
+    image: "images/huile-gino-1l.webp",
+    description: "Huile de tournesol 1L",
+    options: [
+        { type: "Bouteille", price: 0, unit: "1L" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 51,
+    name: "Huile Tournesol Gino 5 L",
+    category: "alimentaire",
+    image: "images/huile-gino-5l.webp",
+    description: "Huile de tournesol 5L",
+    options: [
+        { type: "Bidon", price: 0, unit: "5L" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 52,
+    name: "Huile Tournesol 25 L",
+    category: "alimentaire",
+    image: "images/huile-25l.webp",
+    description: "Huile de tournesol 25L",
+    options: [
+        { type: "Bidon", price: 0, unit: "25L" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 53,
+    name: "Huile végétal",
+    category: "alimentaire",
+    image: "images/huile-vegetale.webp",
+    description: "Huile végétale",
+    options: [
+        { type: "Bouteille", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 54,
+    name: "Huile rouge",
+    category: "alimentaire",
+    image: "images/huile-rouge.webp",
+    description: "Huile de palme",
+    options: [
+        { type: "Bouteille", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 55,
+    name: "Lait Peak poudre boite gm",
+    category: "alimentaire",
+    image: "images/lait-peak-boite.webp",
+    description: "Lait en poudre grande boîte",
+    options: [
+        { type: "Boîte", price: 0, unit: "gm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 56,
+    name: "Lait Peak poudre Sachet gm",
+    category: "alimentaire",
+    image: "images/lait-peak-sachet.webp",
+    description: "Lait en poudre sachet",
+    options: [
+        { type: "Sachet", price: 0, unit: "gm" }
+    ],
+    isMarketplace: false
+},
+    {
+    id: 57,
+    name: "Lait peak moyen",
+    category: "alimentaire",
+    image: "images/lait-peak-moyen.webp",
+    description: "Lait Peak format moyen",
+    options: [
+        { type: "Boîte", price: 0, unit: "moyen" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 58,
+    name: "Lait peak",
+    category: "alimentaire",
+    image: "images/lait-peak.webp",
+    description: "Lait Peak",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 59,
+    name: "Lait peak sachet",
+    category: "alimentaire",
+    image: "images/lait-peak-sachet.webp",
+    description: "Lait Peak en sachet",
+    options: [
+        { type: "Sachet", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 60,
+    name: "Lait Bonnet rouge 1",
+    category: "alimentaire",
+    image: "images/lait-bonnet-rouge-1.webp",
+    description: "Lait Bonnet Rouge format 1",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 61,
+    name: "Lait Bonnet rouge 2",
+    category: "alimentaire",
+    image: "images/lait-bonnet-rouge-2.webp",
+    description: "Lait Bonnet Rouge format 2",
+    options: [
+        { type: "Boîte", price: 0, unit: "2" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 62,
+    name: "Lait cowbell gm",
+    category: "alimentaire",
+    image: "images/lait-cowbell-gm.webp",
+    description: "Lait Cowbell grand modèle",
+    options: [
+        { type: "Boîte", price: 0, unit: "gm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 63,
+    name: "Lait cowbell concentré",
+    category: "alimentaire",
+    image: "images/lait-cowbell-concentre.webp",
+    description: "Lait concentré Cowbell",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 64,
+    name: "Lait cowbell sachet",
+    category: "alimentaire",
+    image: "images/lait-cowbell-sachet.webp",
+    description: "Lait Cowbell en sachet",
+    options: [
+        { type: "Sachet", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 65,
+    name: "Lait Cèbon concentré",
+    category: "alimentaire",
+    image: "images/lait-cebon.webp",
+    description: "Lait concentré Cèbon",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 66,
+    name: "Lait Nido",
+    category: "alimentaire",
+    image: "images/lait-nido.webp",
+    description: "Lait Nido",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 67,
+    name: "Lait Jago concentré",
+    category: "alimentaire",
+    image: "images/lait-jago.webp",
+    description: "Lait concentré Jago",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 68,
+    name: "Nescafé clasic pm",
+    category: "alimentaire",
+    image: "images/nescafe-pm.webp",
+    description: "Nescafé petit modèle",
+    options: [
+        { type: "Boîte", price: 0, unit: "pm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 69,
+    name: "Nescafé Moyen",
+    category: "alimentaire",
+    image: "images/nescafe-moyen.webp",
+    description: "Nescafé format moyen",
+    options: [
+        { type: "Boîte", price: 0, unit: "moyen" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 70,
+    name: "Nescafé sachet",
+    category: "alimentaire",
+    image: "images/nescafe-sachet.webp",
+    description: "Nescafé en sachet",
+    options: [
+        { type: "Sachet", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 71,
+    name: "Lait Miksi",
+    category: "alimentaire",
+    image: "images/lait-miksi.webp",
+    description: "Lait Miksi",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 72,
+    name: "Milo Cowbell chocolat",
+    category: "alimentaire",
+    image: "images/milo-cowbell.webp",
+    description: "Boisson chocolatée Milo Cowbell",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 73,
+    name: "Milo Ovaltine",
+    category: "alimentaire",
+    image: "images/milo-ovaltine.webp",
+    description: "Boisson chocolatée Ovaltine",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 74,
+    name: "Milo nestlé gm",
+    category: "alimentaire",
+    image: "images/milo-nestle.webp",
+    description: "Milo Nestlé grand modèle",
+    options: [
+        { type: "Boîte", price: 0, unit: "gm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 75,
+    name: "Nescafé Tradicio pm",
+    category: "alimentaire",
+    image: "images/nescafe-tradicio.webp",
+    description: "Nescafé Tradicio petit modèle",
+    options: [
+        { type: "Boîte", price: 0, unit: "pm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 76,
+    name: "Mayonnaise Bama",
+    category: "alimentaire",
+    image: "images/mayo-bama.webp",
+    description: "Mayonnaise Bama",
+    options: [
+        { type: "Pot", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 77,
+    name: "Miksi chocolat",
+    category: "alimentaire",
+    image: "images/miksi-chocolat.webp",
+    description: "Boisson chocolatée Miksi",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 78,
+    name: "Milo Cowbell chocolat gm",
+    category: "alimentaire",
+    image: "images/milo-cowbell-gm.webp",
+    description: "Milo Cowbell grand modèle",
+    options: [
+        { type: "Boîte", price: 0, unit: "gm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 79,
+    name: "Milo sachet",
+    category: "alimentaire",
+    image: "images/milo-sachet.webp",
+    description: "Milo en sachet",
+    options: [
+        { type: "Sachet", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 80,
+    name: "Moyonnaise Sossa Sachet",
+    category: "alimentaire",
+    image: "images/mayo-sossa.webp",
+    description: "Mayonnaise Sossa en sachet",
+    options: [
+        { type: "Sachet", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 81,
+    name: "Mayonnaise Aromate sachet",
+    category: "alimentaire",
+    image: "images/mayo-aromate.webp",
+    description: "Mayonnaise aromatisée",
+    options: [
+        { type: "Sachet", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 82,
+    name: "Mayonnaise Jadida",
+    category: "alimentaire",
+    image: "images/mayo-jadida.webp",
+    description: "Mayonnaise Jadida",
+    options: [
+        { type: "Pot", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 83,
+    name: "Mayonnaise Jm's",
+    category: "alimentaire",
+    image: "images/mayo-jms.webp",
+    description: "Mayonnaise Jm's",
+    options: [
+        { type: "Pot", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 84,
+    name: "Coquiette pm",
+    category: "alimentaire",
+    image: "images/coquilette-pm.webp",
+    description: "Coquillettes petit modèle",
+    options: [
+        { type: "Sachet", price: 0, unit: "pm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 85,
+    name: "Vermisselle",
+    category: "alimentaire",
+    image: "images/vermicelle.webp",
+    description: "Vermicelle",
+    options: [
+        { type: "Sachet", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 86,
+    name: "Coquiette gm",
+    category: "alimentaire",
+    image: "images/coquilette-gm.webp",
+    description: "Coquillettes grand modèle",
+    options: [
+        { type: "Sachet", price: 0, unit: "gm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 87,
+    name: "Beurre 250g",
+    category: "alimentaire",
+    image: "images/beurre-250g.webp",
+    description: "Beurre 250g",
+    options: [
+        { type: "Plaquette", price: 0, unit: "250g" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 88,
+    name: "Sucre 1kg",
+    category: "alimentaire",
+    image: "images/sucre-1kg.webp",
+    description: "Sucre 1kg",
+    options: [
+        { type: "Sac", price: 0, unit: "1kg" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 89,
+    name: "Sucre roux",
+    category: "alimentaire",
+    image: "images/sucre-roux.webp",
+    description: "Sucre roux",
+    options: [
+        { type: "Sac", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 90,
+    name: "Sucre st louis gm",
+    category: "alimentaire",
+    image: "images/sucre-stlouis-gm.webp",
+    description: "Sucre St Louis grand modèle",
+    options: [
+        { type: "Sac", price: 0, unit: "gm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 91,
+    name: "Sucre st louis pm",
+    category: "alimentaire",
+    image: "images/sucre-stlouis-pm.webp",
+    description: "Sucre St Louis petit modèle",
+    options: [
+        { type: "Sac", price: 0, unit: "pm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 92,
+    name: "Vinaigre Rouge",
+    category: "alimentaire",
+    image: "images/vinaigre-rouge.webp",
+    description: "Vinaigre rouge",
+    options: [
+        { type: "Bouteille", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 93,
+    name: "Vinaigre Blanc",
+    category: "alimentaire",
+    image: "images/vinaigre-blanc.webp",
+    description: "Vinaigre blanc",
+    options: [
+        { type: "Bouteille", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 94,
+    name: "Peti pois Bonduelle",
+    category: "alimentaire",
+    image: "images/petit-pois.webp",
+    description: "Petit pois Bonduelle",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 95,
+    name: "Indomie Grand",
+    category: "alimentaire",
+    image: "images/indomie-gm.webp",
+    description: "Indomie grand format",
+    options: [
+        { type: "Paquet", price: 0, unit: "gm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 96,
+    name: "Indomie Petit",
+    category: "alimentaire",
+    image: "images/indomie-pm.webp",
+    description: "Indomie petit format",
+    options: [
+        { type: "Paquet", price: 0, unit: "pm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 97,
+    name: "Spaguettie Bonita",
+    category: "alimentaire",
+    image: "images/spaghetti-bonita.webp",
+    description: "Spaghetti Bonita",
+    options: [
+        { type: "Paquet", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 98,
+    name: "Spaghetti p-2",
+    category: "alimentaire",
+    image: "images/spaghetti-p2.webp",
+    description: "Spaghetti paquet 2",
+    options: [
+        { type: "Paquet", price: 0, unit: "p2" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 99,
+    name: "Spaghetti p-1",
+    category: "alimentaire",
+    image: "images/spaghetti-p1.webp",
+    description: "Spaghetti paquet 1",
+    options: [
+        { type: "Paquet", price: 0, unit: "p1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 100,
+    name: "Spiral Rad gm",
+    category: "alimentaire",
+    image: "images/spiral-rad.webp",
+    description: "Pâtes spiralées grand modèle",
+    options: [
+        { type: "Paquet", price: 0, unit: "gm" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 101,
+    name: "Oeuf 1 Plateau",
+    category: "alimentaire",
+    image: "images/oeuf-plateau.webp",
+    description: "Plateau d'œufs",
+    options: [
+        { type: "Plateau", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 102,
+    name: "Maïs",
+    category: "alimentaire",
+    image: "images/mais.webp",
+    description: "Maïs",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 103,
+    name: "Tomate Aicha Moyen",
+    category: "alimentaire",
+    image: "images/tomate-aicha.webp",
+    description: "Tomate Aicha format moyen",
+    options: [
+        { type: "Boîte", price: 0, unit: "moyen" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 104,
+    name: "Tomate demi",
+    category: "alimentaire",
+    image: "images/tomate-demi.webp",
+    description: "Tomate demi boîte",
+    options: [
+        { type: "Boîte", price: 0, unit: "demi" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 105,
+    name: "Sardine Napa",
+    category: "alimentaire",
+    image: "images/sardine-napa.webp",
+    description: "Sardine Napa",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 106,
+    name: "Sardine de variétés",
+    category: "alimentaire",
+    image: "images/sardine-variete.webp",
+    description: "Sardines variées",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 107,
+    name: "Sardines Apollo",
+    category: "alimentaire",
+    image: "images/sardine-apollo.webp",
+    description: "Sardines Apollo",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 108,
+    name: "Sardines Safy",
+    category: "alimentaire",
+    image: "images/sardine-safy.webp",
+    description: "Sardines Safy",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+},
+{
+    id: 109,
+    name: "Sardine Tinapa 555",
+    category: "alimentaire",
+    image: "images/sardine-555.webp",
+    description: "Sardine Tinapa 555",
+    options: [
+        { type: "Boîte", price: 0, unit: "1" }
+    ],
+    isMarketplace: false
+}
 ];
