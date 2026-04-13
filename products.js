@@ -1201,5 +1201,295 @@ const products = [
         { type: "Boîte", price: 0, unit: "1" }
     ],
     isMarketplace: false
-}
+},
+    [
+    {
+        id: 110,
+        name: "Ralonge",
+        category: "bricolage",
+        image: "images/ralonge.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 111,
+        name: "Colle Adhésive",
+        category: "bricolage",
+        image: "images/colle_adhesive.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 112,
+        name: "Colle Adhésive liquide",
+        category: "bricolage",
+        image: "images/colle_adhesive_liquide.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 113,
+        name: "Chaise plastique",
+        category: "bricolage",
+        image: "images/chaise_plastique.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 114,
+        name: "Brosse toilette",
+        category: "bricolage",
+        image: "images/brosse_toilette.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 115,
+        name: "Brosse à tige",
+        category: "bricolage",
+        image: "images/brosse_tige.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 116,
+        name: "Bougie Pm",
+        category: "bricolage",
+        image: "images/bougie_pm.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 117,
+        name: "Bougie Gm",
+        category: "bricolage",
+        image: "images/bougie_gm.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 118,
+        name: "Balai à main",
+        category: "bricolage",
+        image: "images/balai_main.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 119,
+        name: "Balais à tige traditionnel",
+        category: "bricolage",
+        image: "images/balai_tige_traditionnel.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 120,
+        name: "Balai moderne (tige)",
+        category: "bricolage",
+        image: "images/balai_moderne.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 121,
+        name: "Balai à toile d'araignée",
+        category: "bricolage",
+        image: "images/balai_toile.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 122,
+        name: "Allumette Amen",
+        category: "bricolage",
+        image: "images/allumette_amen.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 123,
+        name: "Allumette Cuisy pot",
+        category: "bricolage",
+        image: "images/allumette_cuisy.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 124,
+        name: "Ampoule en jeu de lumière",
+        category: "bricolage",
+        image: "images/ampoule_jeu.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 125,
+        name: "Ampoule 10 w-220",
+        category: "bricolage",
+        image: "images/ampoule_10w.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 126,
+        name: "Ampoule LED 60W",
+        category: "bricolage",
+        image: "images/ampoule_led_60.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 127,
+        name: "Ampoule LED 50W",
+        category: "bricolage",
+        image: "images/ampoule_led_50.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 128,
+        name: "Multiprise sans fil P5",
+        category: "bricolage",
+        image: "images/multiprise_p5.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 129,
+        name: "Multiprise sans fil P4",
+        category: "bricolage",
+        image: "images/multiprise_p4.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 130,
+        name: "Multiprise sans fil P3",
+        category: "bricolage",
+        image: "images/multiprise_p3.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 131,
+        name: "Multiprise sans fil P2",
+        category: "bricolage",
+        image: "images/multiprise_p2.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 132,
+        name: "Multiprise sans fil P1",
+        category: "bricolage",
+        image: "images/multiprise_p1.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 133,
+        name: "Ventilo à pieds",
+        category: "bricolage",
+        image: "images/ventilo.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 134,
+        name: "Brasseur",
+        category: "bricolage",
+        image: "images/brasseur.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 135,
+        name: "Rallonge 5 troues 5 m de corde",
+        category: "bricolage",
+        image: "images/rallonge_5m.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 136,
+        name: "Javel 5 L",
+        category: "bricolage",
+        image: "images/javel_5l.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 137,
+        name: "Javel poudre",
+        category: "bricolage",
+        image: "images/javel_poudre.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 138,
+        name: "Javel liquide pm",
+        category: "bricolage",
+        image: "images/javel_pm.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 139,
+        name: "Omo Yso",
+        category: "bricolage",
+        image: "images/omo_yso.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 140,
+        name: "Coton tige",
+        category: "bricolage",
+        image: "images/coton_tige.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    },
+    {
+        id: 141,
+        name: "Lingette",
+        category: "bricolage",
+        image: "images/lingette.webp",
+        description: "Produit de bricolage",
+        options: [{ type: "Unité", price: 0, unit: "" }],
+        isMarketplace: false
+    }
+]
 ];
