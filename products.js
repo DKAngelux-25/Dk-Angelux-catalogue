@@ -2155,5 +2155,383 @@ const products = [
         description: "Vin blanc",
         options: [{ type: "Unité", price: 3200, unit: "bouteille" }],
         isMarketplace: false
-    }
+    },
+    {
+    id: 116,
+    name: "Manioc",
+    category: "Epice",
+    image: "images/manioc.webp",
+    description: "Manioc frais",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 117,
+    name: "Patate douce",
+    category: "Epice",
+    image: "images/patate_douce.webp",
+    description: "Patate douce",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 118,
+    name: "Igname",
+    category: "Epice",
+    image: "images/igname.webp",
+    description: "Igname",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 119,
+    name: "Feuille de Bissap",
+    category: "Epice",
+    image: "images/feuille_bissap.webp",
+    description: "Feuille de bissap",
+    options: [{ type: "Unité", price: 500, unit: "botte" }],
+    isMarketplace: false
+},
+{
+    id: 120,
+    name: "Ananas",
+    category: "Epice",
+    image: "images/ananas.webp",
+    description: "Ananas",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 121,
+    name: "Feuille de citronnelle",
+    category: "Epice",
+    image: "images/citronnelle.webp",
+    description: "Feuille de citronnelle",
+    options: [{ type: "Unité", price: 500, unit: "botte" }],
+    isMarketplace: false
+},
+{
+    id: 122,
+    name: "Haricot vert",
+    category: "Epice",
+    image: "images/haricot_vert.webp",
+    description: "Haricot vert",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 123,
+    name: "Raisins",
+    category: "Epice",
+    image: "images/raisins.webp",
+    description: "Raisins",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 124,
+    name: "Betterave",
+    category: "Epice",
+    image: "images/betterave.webp",
+    description: "Betterave",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 125,
+    name: "Papaye",
+    category: "Epice",
+    image: "images/papaye.webp",
+    description: "Papaye",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 126,
+    name: "Pomme de terre",
+    category: "Epice",
+    image: "images/pomme_de_terre.webp",
+    description: "Pomme de terre",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 127,
+    name: "Mangue",
+    category: "Epice",
+    image: "images/mangue.webp",
+    description: "Mangue",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 128,
+    name: "Avocat",
+    category: "Epice",
+    image: "images/avocat.webp",
+    description: "Avocat",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 129,
+    name: "Citron",
+    category: "Epice",
+    image: "images/citron.webp",
+    description: "Citron",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 130,
+    name: "Feuille d'ademe",
+    category: "Epice",
+    image: "images/ademe.webp",
+    description: "Feuille d'ademe",
+    options: [{ type: "Unité", price: 500, unit: "botte" }],
+    isMarketplace: false
+},
+    {
+    id: 131,
+    name: "Gombo",
+    category: "Epice",
+    image: "images/gombo.webp",
+    description: "Gombo frais",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 132,
+    name: "Feuille de gboma",
+    category: "Epice",
+    image: "images/gboma.webp",
+    description: "Feuille de gboma",
+    options: [{ type: "Unité", price: 500, unit: "botte" }],
+    isMarketplace: false
+},
+{
+    id: 133,
+    name: "Feuille de laurier",
+    category: "Epice",
+    image: "images/laurier.webp",
+    description: "Feuille de laurier",
+    options: [{ type: "Unité", price: 500, unit: "botte" }],
+    isMarketplace: false
+},
+{
+    id: 134,
+    name: "Banane",
+    category: "Epice",
+    image: "images/banane.webp",
+    description: "Banane",
+    options: [{ type: "Unité", price: 500, unit: "main" }],
+    isMarketplace: false
+},
+{
+    id: 135,
+    name: "Pastèque",
+    category: "Epice",
+    image: "images/pasteque.webp",
+    description: "Pastèque",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 136,
+    name: "Clou de girofle",
+    category: "Epice",
+    image: "images/clou_girofle.webp",
+    description: "Clou de girofle",
+    options: [{ type: "Unité", price: 500, unit: "sachet" }],
+    isMarketplace: false
+},
+{
+    id: 137,
+    name: "Ail",
+    category: "Epice",
+    image: "images/ail.webp",
+    description: "Ail",
+    options: [{ type: "Unité", price: 500, unit: "tête" }],
+    isMarketplace: false
+},
+{
+    id: 138,
+    name: "Oignon 100",
+    category: "Epice",
+    image: "images/oignon.webp",
+    description: "Oignon de 100",
+    options: [{ type: "Unité", price: 500, unit: "lot" }],
+    isMarketplace: false
+},
+{
+    id: 139,
+    name: "Oignon 50",
+    category: "Epice",
+    image: "images/oignon.webp",
+    description: "Oignon de 50",
+    options: [{ type: "Unité", price: 500, unit: "lot" }],
+    isMarketplace: false
+},
+{
+    id: 140,
+    name: "Oignon 25",
+    category: "Epice",
+    image: "images/oignon.webp",
+    description: "Oignon de 25",
+    options: [{ type: "Unité", price: 500, unit: "lot" }],
+    isMarketplace: false
+},
+{
+    id: 141,
+    name: "Dekou",
+    category: "Epice",
+    image: "images/dekou.webp",
+    description: "Dekou",
+    options: [{ type: "Unité", price: 500, unit: "sachet" }],
+    isMarketplace: false
+},
+{
+    id: 142,
+    name: "Tomate fresh",
+    category: "Epice",
+    image: "images/tomate.webp",
+    description: "Tomate fraîche",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 143,
+    name: "Gombo sec",
+    category: "Epice",
+    image: "images/gombo_sec.webp",
+    description: "Gombo sec",
+    options: [{ type: "Unité", price: 500, unit: "sachet" }],
+    isMarketplace: false
+},
+{
+    id: 144,
+    name: "Baies de Selim",
+    category: "Epice",
+    image: "images/baies_selim.webp",
+    description: "Baies de Selim",
+    options: [{ type: "Unité", price: 500, unit: "sachet" }],
+    isMarketplace: false
+},
+{
+    id: 145,
+    name: "Basilic Africain Tchao",
+    category: "Epice",
+    image: "images/basilic.webp",
+    description: "Basilic africain",
+    options: [{ type: "Unité", price: 500, unit: "botte" }],
+    isMarketplace: false
+},
+{
+    id: 146,
+    name: "Concombre",
+    category: "Epice",
+    image: "images/concombre.webp",
+    description: "Concombre",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 147,
+    name: "Gingembre",
+    category: "Epice",
+    image: "images/gingembre.webp",
+    description: "Gingembre",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 148,
+    name: "Piment vert",
+    category: "Epice",
+    image: "images/piment_vert.webp",
+    description: "Piment vert",
+    options: [{ type: "Unité", price: 500, unit: "sachet" }],
+    isMarketplace: false
+},
+{
+    id: 149,
+    name: "Laitue",
+    category: "Epice",
+    image: "images/laitue.webp",
+    description: "Laitue",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 150,
+    name: "Poivron",
+    category: "Epice",
+    image: "images/poivron.webp",
+    description: "Poivron",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 151,
+    name: "Pate de mais",
+    category: "Epice",
+    image: "images/pate_mais.webp",
+    description: "Pâte de maïs",
+    options: [{ type: "Unité", price: 500, unit: "boule" }],
+    isMarketplace: false
+},
+{
+    id: 152,
+    name: "Piment rouge",
+    category: "Epice",
+    image: "images/piment_rouge.webp",
+    description: "Piment rouge",
+    options: [{ type: "Unité", price: 500, unit: "sachet" }],
+    isMarketplace: false
+},
+{
+    id: 153,
+    name: "Pate de manioc",
+    category: "Epice",
+    image: "images/pate_manioc.webp",
+    description: "Pâte de manioc",
+    options: [{ type: "Unité", price: 500, unit: "boule" }],
+    isMarketplace: false
+},
+{
+    id: 154,
+    name: "Pate d'arachide",
+    category: "Epice",
+    image: "images/pate_arachide.webp",
+    description: "Pâte d'arachide",
+    options: [{ type: "Unité", price: 500, unit: "pot" }],
+    isMarketplace: false
+},
+{
+    id: 155,
+    name: "Carotte",
+    category: "Epice",
+    image: "images/carotte.webp",
+    description: "Carotte",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 156,
+    name: "Chou",
+    category: "Epice",
+    image: "images/chou.webp",
+    description: "Chou",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 157,
+    name: "Melange d'ingredient",
+    category: "Epice",
+    image: "images/melange.webp",
+    description: "Mélange d'ingrédients",
+    options: [{ type: "Unité", price: 500, unit: "sachet" }],
+    isMarketplace: false
+}
 ];
