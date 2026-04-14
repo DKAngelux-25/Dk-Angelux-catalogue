@@ -2533,5 +2533,185 @@ const products = [
     description: "Mélange d'ingrédients",
     options: [{ type: "Unité", price: 500, unit: "sachet" }],
     isMarketplace: false
+},
+    {
+    id: 158,
+    name: "Pilon",
+    category: "frais",
+    image: "images/pilon.webp",
+    description: "Pilon de poulet",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 159,
+    name: "Saucisse doux",
+    category: "frais",
+    image: "images/saucisse_doux.webp",
+    description: "Saucisse douce",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 160,
+    name: "Saucisse simple",
+    category: "frais",
+    image: "images/saucisse_simple.webp",
+    description: "Saucisse simple",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 161,
+    name: "Poisson 17+",
+    category: "frais",
+    image: "images/poisson.webp",
+    description: "Poisson taille 17+",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 162,
+    name: "Poisson 25+",
+    category: "frais",
+    image: "images/poisson.webp",
+    description: "Poisson taille 25+",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 163,
+    name: "Cuisse poulet moue",
+    category: "frais",
+    image: "images/cuisse_poulet.webp",
+    description: "Cuisse de poulet moue",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 164,
+    name: "Cuisse poulet dure",
+    category: "frais",
+    image: "images/cuisse_poulet.webp",
+    description: "Cuisse de poulet dure",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 165,
+    name: "Aile poulet moue",
+    category: "frais",
+    image: "images/aile_poulet.webp",
+    description: "Aile de poulet moue",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 166,
+    name: "Aile poulet dure",
+    category: "frais",
+    image: "images/aile_poulet.webp",
+    description: "Aile de poulet dure",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 167,
+    name: "Aile dindon petit",
+    category: "frais",
+    image: "images/aile_dindon.webp",
+    description: "Aile de dindon petite",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 168,
+    name: "Aile dindon grand",
+    category: "frais",
+    image: "images/aile_dindon.webp",
+    description: "Aile de dindon grande",
+    options: [{ type: "Unité", price: 500, unit: "kg" }],
+    isMarketplace: false
+},
+{
+    id: 169,
+    name: "Poulet surgelé",
+    category: "frais",
+    image: "images/poulet_surgelé.webp",
+    description: "Poulet surgelé",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 170,
+    name: "Poisson séché",
+    category: "frais",
+    image: "images/poisson_seche.webp",
+    description: "Poisson séché",
+    options: [{ type: "Unité", price: 500, unit: "sachet" }],
+    isMarketplace: false
+},
+{
+    id: 171,
+    name: "Poisson frit",
+    category: "frais",
+    image: "images/poisson_frit.webp",
+    description: "Poisson frit",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 172,
+    name: "Poisson autre",
+    category: "frais",
+    image: "images/poisson.webp",
+    description: "Autres types de poisson",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 173,
+    name: "Poisson fumé pm",
+    category: "frais",
+    image: "images/poisson_fume.webp",
+    description: "Poisson fumé petit modèle",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+    {
+    id: 174,
+    name: "Poisson fumé gm",
+    category: "frais",
+    image: "images/poisson_fume.webp",
+    description: "Poisson fumé grand modèle",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
+},
+{
+    id: 175,
+    name: "Petit poisson (Doèvi mémé oukougan)",
+    category: "frais",
+    image: "images/petit_poisson.webp",
+    description: "Petit poisson Doèvi mémé oukougan",
+    options: [{ type: "Unité", price: 500, unit: "sachet" }],
+    isMarketplace: false
+},
+{
+    id: 176,
+    name: "Petit poisson (Doèvi mémé oukouvi)",
+    category: "frais",
+    image: "images/petit_poisson.webp",
+    description: "Petit poisson Doèvi mémé oukouvi",
+    options: [{ type: "Unité", price: 500, unit: "sachet" }],
+    isMarketplace: false
+},
+{
+    id: 177,
+    name: "Petit poisson séché (Doèvisiasia)",
+    category: "frais",
+    image: "images/petit_poisson_seche.webp",
+    description: "Petit poisson séché Doèvisiasia",
+    options: [{ type: "Unité", price: 500, unit: "sachet" }],
+    isMarketplace: false
 }
 ];
