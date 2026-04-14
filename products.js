@@ -2713,5 +2713,41 @@ const products = [
     description: "Petit poisson séché Doèvisiasia",
     options: [{ type: "Unité", price: 500, unit: "sachet" }],
     isMarketplace: false
+},
+    {
+    id: 178,
+    name: "Trousseau bébé",
+    category: "bebe",
+    image: "images/trousseau_bebe.webp",
+    description: "Trousseau complet pour bébé",
+    options: [{ type: "Unité", price: 500, unit: "kit" }],
+    isMarketplace: false
+},
+{
+    id: 179,
+    name: "Couche bébé de 50",
+    category: "bebe",
+    image: "images/couche_bebe_50.webp",
+    description: "Paquet de 50 couches bébé",
+    options: [{ type: "Unité", price: 500, unit: "paquet" }],
+    isMarketplace: false
+},
+{
+    id: 180,
+    name: "Couche Guetti F",
+    category: "bebe",
+    image: "images/couche_guetti_f.webp",
+    description: "Couche Guetti taille F",
+    options: [{ type: "Unité", price: 500, unit: "paquet" }],
+    isMarketplace: false
+},
+{
+    id: 181,
+    name: "Berceau bébé",
+    category: "bebe",
+    image: "images/berceau_bebe.webp",
+    description: "Berceau pour bébé",
+    options: [{ type: "Unité", price: 500, unit: "pièce" }],
+    isMarketplace: false
 }
 ];
