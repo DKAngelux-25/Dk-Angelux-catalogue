@@ -280,3 +280,14 @@ footer {
         box-shadow: 0 0 10px rgba(255, 200, 0, 0.6);
     }
 }
+/* AJOUTER À LA FIN DE STYLE.CSS */
+@media screen and (max-width: 600px) {
+    .main-header { flex-direction: column; gap: 10px; }
+    .logo { height: 50px; }
+    .search-bar { max-width: 100%; }
+    .categories-nav { gap: 10px; padding: 10px 5px; }
+    .category-item { min-width: 70px; }
+    .circle { width: 50px; height: 50px; font-size: 18px; }
+    .product-grid { grid-template-columns: 1fr 1fr; gap: 10px; padding: 10px; }
+    .dk-flex-btn { width: 140px; bottom: 80px; }
+}
