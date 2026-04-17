@@ -173,3 +173,27 @@ updateCartHeader();
 
 // Initialisation
 displayProducts();
+function searchProducts() {
+    const query = document.querySelector('.search-bar input').value.toLowerCase();
+    const grid = document.getElementById('product-grid');
+    grid.innerHTML = ''; // On efface la grille actuelle
+
+    // On filtre parmi TOUS les produits
+    const filtered = products.filter(p => 
+        p.name.toLowerCase().includes(query) || 
+        p.category.toLowerCase().includes(query)
+    );
+
+    // On affiche les résultats trouvés
+    filtered.forEach(product => {
+        const card = document.createElement('div');
+        card.className = 'product-card';
+        card.innerHTML = `
+            <img src="${product.image}" alt="${product.name}">
+            <h3>${product.name}</h3>
+            <p class="price">${product.options[0].price} FCFA</p>
+            <button onclick="addToCart(${product.id})">Ajouter au panier</button>
+        `;
+        grid.appendChild(card);
+    });
+}
