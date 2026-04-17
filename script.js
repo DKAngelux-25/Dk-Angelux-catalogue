@@ -175,16 +175,21 @@ updateCartHeader();
 displayProducts();
 function searchProducts() {
     const query = document.querySelector('.search-bar input').value.toLowerCase();
-    const grid = document.getElementById('product-grid');
-    grid.innerHTML = ''; // On efface la grille actuelle
+    
+    // Si le champ est vide, on affiche tout et on arrête
+    if (query === "") {
+        displayProducts('all');
+        return;
+    }
 
-    // On filtre parmi TOUS les produits
+    const grid = document.getElementById('product-grid');
+    grid.innerHTML = '';
+
     const filtered = products.filter(p => 
         p.name.toLowerCase().includes(query) || 
         p.category.toLowerCase().includes(query)
     );
 
-    // On affiche les résultats trouvés
     filtered.forEach(product => {
         const card = document.createElement('div');
         card.className = 'product-card';
