@@ -174,9 +174,9 @@ updateCartHeader();
 // Initialisation
 displayProducts();
 function searchProducts() {
-    const query = document.querySelector('.search-bar input').value.toLowerCase();
-    
-    // Si le champ est vide, on affiche tout et on arrête
+    const query = document.getElementById('search-input').value.toLowerCase().trim();
+
+    // Si vide → tout afficher
     if (query === "") {
         displayProducts('all');
         return;
@@ -186,19 +186,26 @@ function searchProducts() {
     grid.innerHTML = '';
 
     const filtered = products.filter(p => 
-        p.name.toLowerCase().includes(query) || 
-        p.category.toLowerCase().includes(query)
+        p.name.toLowerCase().startsWith(query) || 
+        p.category.toLowerCase().startsWith(query)
     );
+
+    if (filtered.length === 0) {
+        grid.innerHTML = "<p style='padding:20px'>Aucun produit trouvé</p>";
+        return;
+    }
 
     filtered.forEach(product => {
         const card = document.createElement('div');
         card.className = 'product-card';
+
         card.innerHTML = `
             <img src="${product.image}" alt="${product.name}">
             <h3>${product.name}</h3>
             <p class="price">${product.options[0].price} FCFA</p>
             <button onclick="addToCart(${product.id})">Ajouter au panier</button>
         `;
+
         grid.appendChild(card);
     });
 }
