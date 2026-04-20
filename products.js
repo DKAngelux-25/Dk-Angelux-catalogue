@@ -1215,7 +1215,7 @@ const products = [
         id: 111,
         name: "Colle Adhésive",
         category: "bricolage",
-        image: "images/colle_adhesive.webp",
+        image: "images/Adhesive.webp",
         description: "Produit de bricolage",
         options: [{ type: "Unité", price: 0, unit: "" }],
         isMarketplace: false
