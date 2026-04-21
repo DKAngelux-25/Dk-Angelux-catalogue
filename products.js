@@ -23,12 +23,12 @@ const products = [
         id: 3,
         name: "Riz Gino",
         category: "alimentaire",
-        image: "images/riz-gino.webp",
+        image: "images/Gino%205%20kg.webp",
         description: "Riz blanc de qualité",
         options: [
-            { type: "Sachet", price: 400, unit: "0.5kg" },
-            { type: "Sachet", price: 800, unit: "1kg" },
-            { type: "Sac", price: 3500, unit: "5kg" }
+            { type: "Sachet", price: 650, unit: "0.5kg" },
+            { type: "Sachet", price: 950, unit: "1kg" },
+            { type: "Sac", price: 7200, unit: "5kg" }
         ],
         isMarketplace: false
     },
