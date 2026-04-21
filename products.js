@@ -39,9 +39,9 @@ const products = [
         image: "images/riz-sister-grace.webp",
         description: "Riz parfumé de qualité supérieure",
         options: [
-            { type: "Sachet", price: 450, unit: "0.5kg" },
+            { type: "Sachet", price: 600, unit: "0.5kg" },
             { type: "Sachet", price: 850, unit: "1kg" },
-            { type: "Sac", price: 3600, unit: "5kg" }
+            { type: "Sac", price: 6500, unit: "5kg" }
         ],
         isMarketplace: false
     },
@@ -52,7 +52,7 @@ const products = [
         image: "images/riz-delice.webp",
         description: "Riz blanc premium",
         options: [
-            { type: "Sac", price: 3400, unit: "5kg" }
+            { type: "Sac", price: 6500, unit: "5kg" }
         ],
         isMarketplace: false
     },
@@ -63,7 +63,7 @@ const products = [
         image: "images/riz-riziere.webp",
         description: "Riz local de bonne qualité",
         options: [
-            { type: "Sac", price: 3200, unit: "5kg" }
+            { type: "Sac", price: 4500, unit: "5kg" }
         ],
         isMarketplace: false
     },
@@ -85,7 +85,7 @@ const products = [
         image: "images/couscous-dari.webp",
         description: "Semoule de blé fine",
         options: [
-            { type: "Paquet", price: 600, unit: "500g" }
+            { type: "Paquet", price: 500, unit: "500g" }
         ],
         isMarketplace: false
     },
@@ -96,7 +96,8 @@ const products = [
         image: "images/riz-ibo.webp",
         description: "Riz blanc populaire",
         options: [
-            { type: "Sac", price: 3300, unit: "5kg" }
+            { type: "Sac", price: 1300, unit: "1bol" }
+            { type: "Sac", price: 1200, unit: "1kg" }
         ],
         isMarketplace: false
     },
@@ -107,7 +108,7 @@ const products = [
         image: "images/riz-standard.webp",
         description: "Riz économique pour usage quotidien",
         options: [
-            { type: "Sac", price: 3000, unit: "5kg" }
+            { type: "Sac", price: 1800, unit: "1bol" }
         ],
         isMarketplace: false
     },
@@ -118,7 +119,7 @@ const products = [
         image: "images/riz-meilleur.webp",
         description: "Riz amélioré, meilleure qualité",
         options: [
-            { type: "Sac", price: 3400, unit: "5kg" }
+            { type: "Sac", price: 1950, unit: "1bol" }
         ],
         isMarketplace: false
     },
@@ -129,8 +130,7 @@ const products = [
         image: "images/mais.webp",
         description: "Maïs sec pour consommation",
         options: [
-            { type: "bol", price: 650, unit: "1bol" },
-            { type: "Kg", price: 350, unit: "1kg" }
+            { type: "bol", price: 700, unit: "1bol" },
         ],
         isMarketplace: false
     },
