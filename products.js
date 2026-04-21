@@ -96,7 +96,7 @@ const products = [
         image: "images/riz-ibo.webp",
         description: "Riz blanc populaire",
         options: [
-            { type: "Sac", price: 1300, unit: "1bol" }
+            { type: "Sac", price: 1300, unit: "1bol" },
             { type: "Sac", price: 1200, unit: "1kg" }
         ],
         isMarketplace: false
