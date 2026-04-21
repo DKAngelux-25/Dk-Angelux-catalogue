@@ -23,7 +23,7 @@ const products = [
         id: 3,
         name: "Riz Gino",
         category: "alimentaire",
-        image: "images/Gino%205%20kg.webp",
+        image: "images/Gino-5kg.webp",
         description: "Riz blanc de qualité",
         options: [
             { type: "Sachet", price: 650, unit: "0.5kg" },
