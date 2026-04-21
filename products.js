@@ -2610,7 +2610,7 @@ const products = [
     id: 166,
     name: "Aile poulet dure",
     category: "frais",
-    image: "images/aile_poulet.webp",
+    image: "images/Aile-poulet-dure.webp",
     description: "Aile de poulet dure",
     options: [{ type: "Unité", price: 500, unit: "kg" }],
     isMarketplace: false
@@ -2619,7 +2619,7 @@ const products = [
     id: 167,
     name: "Aile dindon petit",
     category: "frais",
-    image: "images/aile_dindon.webp",
+    image: "images/Aile-dindon-petit.webp",
     description: "Aile de dindon petite",
     options: [{ type: "Unité", price: 500, unit: "kg" }],
     isMarketplace: false
@@ -2628,7 +2628,7 @@ const products = [
     id: 168,
     name: "Aile dindon grand",
     category: "frais",
-    image: "images/aile_dindon.webp",
+    image: "images/Aile-dindon-grande.webp",
     description: "Aile de dindon grande",
     options: [{ type: "Unité", price: 500, unit: "kg" }],
     isMarketplace: false
