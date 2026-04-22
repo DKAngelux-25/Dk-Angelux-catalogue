@@ -143,7 +143,7 @@ const products = [
     { id: 216, name: "Bougie Pm", category: "bricolage", image: "images/bougie-pm.webp", description: "Bougie petit modèle", options: [{ type: "Unité", price: 0, unit: "" }], isMarketplace: false },
     { id: 217, name: "Bougie Gm", category: "bricolage", image: "images/bougie-gm.webp", description: "Bougie grand modèle", options: [{ type: "Unité", price: 0, unit: "" }], isMarketplace: false },
     { id: 218, name: "Allumette Amen", category: "bricolage", image: "images/allumette-amen.webp", description: "Allumette Amen", options: [{ type: "Unité", price: 0, unit: "" }], isMarketplace: false },
-    { id: 219, name: "Allumette Cuisy pot", category: "bricolage", image: "images/allumette_cuisy.webp", description: "Allumette Cuisy en pot", options: [{ type: "Unité", price: 0, unit: "" }], isMarketplace: false },
+    { id: 219, name: "Allumette Cuisy pot", category: "bricolage", image: "images/allumette-cuisy.webp", description: "Allumette Cuisy en pot", options: [{ type: "Unité", price: 0, unit: "" }], isMarketplace: false },
     { id: 220, name: "Colle Adhésive", category: "bricolage", image: "images/Adhesive.webp", description: "Colle adhésive", options: [{ type: "Unité", price: 0, unit: "" }], isMarketplace: false },
     { id: 221, name: "Colle Adhésive liquide", category: "bricolage", image: "images/colle-adhesive-liquide.webp", description: "Colle adhésive liquide", options: [{ type: "Unité", price: 0, unit: "" }], isMarketplace: false },
     { id: 222, name: "Chaise plastique", category: "bricolage", image: "images/chaise_plastique.webp", description: "Chaise en plastique", options: [{ type: "Unité", price: 0, unit: "" }], isMarketplace: false },
@@ -284,8 +284,8 @@ const products = [
 // FRAIS (id 500 → 520)
 // ============================================================
     { id: 500, name: "Pilon de poulet", category: "frais", image: "images/pilon.webp", description: "Pilon de poulet", options: [{ type: "Kg", price: 500, unit: "kg" }], isMarketplace: false },
-    { id: 501, name: "Cuisse poulet moue", category: "frais", image: "images/cuisse_poulet.webp", description: "Cuisse de poulet moue", options: [{ type: "Kg", price: 500, unit: "kg" }], isMarketplace: false },
-    { id: 502, name: "Cuisse poulet dure", category: "frais", image: "images/cuisse_poulet.webp", description: "Cuisse de poulet dure", options: [{ type: "Kg", price: 500, unit: "kg" }], isMarketplace: false },
+    { id: 501, name: "Cuisse poulet moue", category: "frais", image: "images/cuisse-poulet-moue.webp", description: "Cuisse de poulet moue", options: [{ type: "Kg", price: 500, unit: "kg" }], isMarketplace: false },
+    { id: 502, name: "Cuisse poulet dure", category: "frais", image: "images/cuisse-poulet-dure.webp", description: "Cuisse de poulet dure", options: [{ type: "Kg", price: 500, unit: "kg" }], isMarketplace: false },
     { id: 503, name: "Aile poulet moue", category: "frais", image: "images/Aile-poulet-moue.webp", description: "Aile de poulet moue", options: [{ type: "Kg", price: 500, unit: "kg" }], isMarketplace: false },
     { id: 504, name: "Aile poulet dure", category: "frais", image: "images/Aile-poulet-dure.webp", description: "Aile de poulet dure", options: [{ type: "Kg", price: 500, unit: "kg" }], isMarketplace: false },
     { id: 505, name: "Aile dindon petit", category: "frais", image: "images/Aile-dindon-petit.webp", description: "Aile de dindon petite", options: [{ type: "Kg", price: 500, unit: "kg" }], isMarketplace: false },
