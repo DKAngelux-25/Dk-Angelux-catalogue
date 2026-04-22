@@ -4,9 +4,9 @@ const products = [
 // ALIMENTAIRE (id 1 → 109)
 // ============================================================
     { id: 1, name: "Huile de Tournesol", category: "alimentaire", image: "images/huile.webp", description: "Huile pure pression à froid", options: [{ type: "Litre", price: 1500, unit: "1L" }, { type: "Carton", price: 17000, unit: "12L" }], isMarketplace: false },
-    { id: 2, name: "Huile Tournesol Lesieur", category: "alimentaire", image: "images/huile-lesieur.webp", description: "Huile de tournesol raffinée", options: [{ type: "Bouteille", price: 1800, unit: "1L" }, { type: "Bouteille", price: 7500, unit: "5L" }], isMarketplace: false },
-    { id: 3, name: "Huile Tournesol Lesueur 1L", category: "alimentaire", image: "images/huile-lesueur-1l.webp", description: "Huile de tournesol 1L", options: [{ type: "Bouteille", price: 0, unit: "1L" }], isMarketplace: false },
-    { id: 4, name: "Huile Tournesol Lesueur 5L", category: "alimentaire", image: "images/huile-lesueur-5l.webp", description: "Huile de tournesol 5L", options: [{ type: "Bidon", price: 0, unit: "5L" }], isMarketplace: false },
+    { id: 2, name: "Huile Tournesol Lesieur 1L", category: "alimentaire", image: "images/huile-lesieur.webp", description: "Huile de tournesol raffinée", options: [{ type: "Bouteille", price: 1800, unit: "1L" }, { type: "Bouteille", price: 7500, unit: "5L" }], isMarketplace: false },
+    { id: 3, name: "Huile Tournesol Lesueur 5L", category: "alimentaire", image: "images/huile-lesueur-5l.webp", description: "Huile de tournesol 1L", options: [{ type: "Bouteille", price: 0, unit: "1L" }], isMarketplace: false },
+    { id: 4, name: "Huile Tournesol huile-bonita 5 l", category: "alimentaire", image: "images/huile-bonita-5L.webp", description: "Huile de tournesol 5L", options: [{ type: "Bidon", price: 0, unit: "5L" }], isMarketplace: false },
     { id: 5, name: "Huile Tournesol Bonita 1L", category: "alimentaire", image: "images/huile-bonita-1l.webp", description: "Huile de tournesol 1L", options: [{ type: "Bouteille", price: 0, unit: "1L" }], isMarketplace: false },
     { id: 6, name: "Huile Tournesol Saint maurice 5L", category: "alimentaire", image: "images/huile-Maurice-5l.webp", description: "Huile de tournesol 5L", options: [{ type: "Bidon", price: 0, unit: "5L" }], isMarketplace: false },
     { id: 7, name: "Huile Tournesol Aïcha 1L", category: "alimentaire", image: "images/huile-aicha-1l.webp", description: "Huile de tournesol 1L", options: [{ type: "Bouteille", price: 0, unit: "1L" }], isMarketplace: false },
