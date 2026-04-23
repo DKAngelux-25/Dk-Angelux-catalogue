@@ -238,9 +238,9 @@ const products = [
 // ÉPICES & LÉGUMES (id 400 → 442)
 // ============================================================
     { id: 400, name: "Tomate fraîche", category: "Epice", image: "images/tomate.webp", description: "Tomate fraîche", options: [{ type: "Kg", price: 500, unit: "kg" }], isMarketplace: false },
-    { id: 401, name: "Oignon 25", category: "Epice", image: "images/oignon.webp", description: "Oignon de 25", options: [{ type: "Lot", price: 500, unit: "lot" }], isMarketplace: false },
-    { id: 402, name: "Oignon 50", category: "Epice", image: "images/oignon.webp", description: "Oignon de 50", options: [{ type: "Lot", price: 500, unit: "lot" }], isMarketplace: false },
-    { id: 403, name: "Oignon 100", category: "Epice", image: "images/oignon.webp", description: "Oignon de 100", options: [{ type: "Lot", price: 500, unit: "lot" }], isMarketplace: false },
+    { id: 401, name: "Oignon 25", category: "Epice", image: "images/oignon-25.webp", description: "Oignon de 25", options: [{ type: "Lot", price: 500, unit: "lot" }], isMarketplace: false },
+    { id: 402, name: "Oignon 50", category: "Epice", image: "images/oignon-50.webp", description: "Oignon de 50", options: [{ type: "Lot", price: 500, unit: "lot" }], isMarketplace: false },
+    { id: 403, name: "Oignon 100", category: "Epice", image: "images/oignon-100.webp", description: "Oignon de 100", options: [{ type: "Lot", price: 500, unit: "lot" }], isMarketplace: false },
     { id: 404, name: "Ail", category: "Epice", image: "images/ail.webp", description: "Ail", options: [{ type: "Tête", price: 500, unit: "tête" }], isMarketplace: false },
     { id: 405, name: "Piment vert", category: "Epice", image: "images/piment_vert.webp", description: "Piment vert", options: [{ type: "Sachet", price: 500, unit: "sachet" }], isMarketplace: false },
     { id: 406, name: "Piment rouge", category: "Epice", image: "images/piment_rouge.webp", description: "Piment rouge", options: [{ type: "Sachet", price: 500, unit: "sachet" }], isMarketplace: false },
@@ -277,7 +277,7 @@ const products = [
     { id: 437, name: "Raisins", category: "Epice", image: "images/raisins.webp", description: "Raisins", options: [{ type: "Kg", price: 500, unit: "kg" }], isMarketplace: false },
     { id: 438, name: "Citron", category: "Epice", image: "images/citron.webp", description: "Citron", options: [{ type: "Pièce", price: 500, unit: "pièce" }], isMarketplace: false },
     { id: 439, name: "Pâte de maïs", category: "Epice", image: "images/pate_mais.webp", description: "Pâte de maïs", options: [{ type: "Boule", price: 500, unit: "boule" }], isMarketplace: false },
-    { id: 440, name: "Pâte de manioc", category: "Epice", image: "images/pate_manioc.webp", description: "Pâte de manioc", options: [{ type: "Boule", price: 500, unit: "boule" }], isMarketplace: false },
+    { id: 440, name: "Pâte de manioc", category: "Epice", image: "images/pate-manioc.webp", description: "Pâte de manioc", options: [{ type: "Boule", price: 500, unit: "boule" }], isMarketplace: false },
     { id: 441, name: "Pâte d'arachide", category: "Epice", image: "images/pate_arachide.webp", description: "Pâte d'arachide", options: [{ type: "Pot", price: 500, unit: "pot" }], isMarketplace: false },
 
 // ============================================================
