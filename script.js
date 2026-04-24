@@ -1,10 +1,99 @@
 let cart = JSON.parse(localStorage.getItem('dk_cart')) || [];
 
+// ── LAZY LOADING PRODUITS ──
+const ITEMS_PER_BATCH = 6; // nombre de produits chargés à la fois
+let currentFilter = 'all';
+let currentBatch = 0;
+let filteredProducts = [];
+let isLoading = false;
+
 function displayProducts(filter = 'all') {
+    currentFilter = filter;
+    currentBatch = 0;
+    filteredProducts = filter === 'all' ? products : products.filter(p => p.category === filter);
+
     const grid = document.getElementById('product-grid');
     grid.innerHTML = '';
-    const filtered = filter === 'all' ? products : products.filter(p => p.category === filter);
-    filtered.forEach(product => grid.appendChild(buildProductCard(product)));
+
+    // Supprimer l'ancien sentinel s'il existe
+    const old = document.getElementById('lazy-sentinel');
+    if (old) old.remove();
+
+    loadNextBatch();
+    setupLazyObserver();
+}
+
+function loadNextBatch() {
+    if (isLoading) return;
+    const grid = document.getElementById('product-grid');
+    const start = currentBatch * ITEMS_PER_BATCH;
+    const end = start + ITEMS_PER_BATCH;
+    const batch = filteredProducts.slice(start, end);
+
+    if (batch.length === 0) return;
+
+    isLoading = true;
+
+    // Skeleton loader pendant le chargement
+    const skeletons = [];
+    batch.forEach(() => {
+        const sk = document.createElement('div');
+        sk.className = 'product-card skeleton-card';
+        sk.innerHTML = `
+            <div class="sk-img"></div>
+            <div class="sk-line sk-title"></div>
+            <div class="sk-line sk-sub"></div>
+            <div class="sk-line sk-btn"></div>
+        `;
+        grid.appendChild(sk);
+        skeletons.push(sk);
+    });
+
+    setTimeout(() => {
+        // Remplacer les skeletons par les vraies cartes
+        skeletons.forEach((sk, i) => {
+            const card = buildProductCard(batch[i]);
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(16px)';
+            grid.replaceChild(card, sk);
+            // Animation d'apparition
+            requestAnimationFrame(() => {
+                card.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            });
+        });
+
+        currentBatch++;
+        isLoading = false;
+
+        // Si tous les produits sont chargés, on retire le sentinel
+        if (currentBatch * ITEMS_PER_BATCH >= filteredProducts.length) {
+            const sentinel = document.getElementById('lazy-sentinel');
+            if (sentinel) sentinel.remove();
+        }
+    }, 300); // délai court pour que le skeleton soit visible
+}
+
+function setupLazyObserver() {
+    // Supprimer l'ancien observer
+    if (window._lazyObserver) window._lazyObserver.disconnect();
+
+    // Créer un élément sentinelle en bas de la grille
+    const sentinel = document.createElement('div');
+    sentinel.id = 'lazy-sentinel';
+    sentinel.style.height = '10px';
+    document.getElementById('product-grid').after(sentinel);
+
+    window._lazyObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting && !isLoading) {
+                loadNextBatch();
+            }
+        });
+    }, { rootMargin: '200px' }); // déclenche 200px avant d'atteindre le bas
+
+    window._lazyObserver.observe(sentinel);
 }
 
 function buildProductCard(product) {
