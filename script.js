@@ -1,7 +1,5 @@
 let cart = JSON.parse(localStorage.getItem('dk_cart')) || [];
 
-let cart = JSON.parse(localStorage.getItem('dk_cart')) || [];
-
 function displayProducts(filter = 'all') {
     const grid = document.getElementById('product-grid');
     grid.innerHTML = '';
