@@ -238,9 +238,9 @@ const products = [
 // ÉPICES & LÉGUMES (id 400 → 442)
 // ============================================================
     { id: 400, name: "Tomate fraîche", category: "Epice", image: "images/tomate.webp", description: "Tomate fraîche", options: [{ type: "sachet", price: 500, unit: "bol" },{ type: "bol", price: 1000, unit: "bol" }], isMarketplace: false },
-    { id: 401, name: "Oignon 25", category: "Epice", image: "images/oignon-25.webp", description: "Oignon de 25", options: [{ type: "Lot", price: 500, unit: "lot" }], isMarketplace: false },
-    { id: 402, name: "Oignon 50", category: "Epice", image: "images/oignon-50.webp", description: "Oignon de 50", options: [{ type: "Lot", price: 500, unit: "lot" }], isMarketplace: false },
-    { id: 403, name: "Oignon 100", category: "Epice", image: "images/oignon-100.webp", description: "Oignon de 100", options: [{ type: "Lot", price: 500, unit: "lot" }], isMarketplace: false },
+    { id: 401, name: "Oignon 25", category: "Epice", image: "images/oignon-25.webp", description: "Oignon de 25", options: [{ type: "1", price: 25, unit: "1" },{ type: "Lot", price: 1000, unit: "40" }], isMarketplace: false },
+    { id: 402, name: "Oignon 50", category: "Epice", image: "images/oignon-50.webp", description: "Oignon de 50", options: [{ type: "1", price: 50, unit: "1" },{ type: "Lot", price: 1800, unit: "40" }], isMarketplace: false },
+    { id: 403, name: "Oignon 100", category: "Epice", image: "images/oignon-100.webp", description: "Oignon de 100", options: [{ type: "1", price: 100, unit: "lot" },{ type: "Lot", price: 2600, unit: "40" }], isMarketplace: false },
     { id: 404, name: "Ail", category: "Epice", image: "images/ail.webp", description: "Ail", options: [{ type: "sachet", price: 100, unit: "sachet" },{ type: "lot", price: 500, unit: "lot" }], isMarketplace: false },
     { id: 405, name: "Piment vert", category: "Epice", image: "images/piment-vert.webp", description: "Piment vert", options: [{ type: "Sachet", price: 500, unit: "sachet" }], isMarketplace: false },
     { id: 406, name: "Piment rouge", category: "Epice", image: "images/piment-rouge.webp", description: "Piment rouge", options: [{ type: "Sachet", price: 500, unit: "sachet" }], isMarketplace: false },
