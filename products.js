@@ -94,7 +94,7 @@ const products = [
     { id: 81, name: "Mayonnaise Jadida", category: "alimentaire", image: "images/mayo-jadida.webp", description: "Mayonnaise Jadida", options: [{ type: "Pot", price: 0, unit: "1" }], isMarketplace: false },
     { id: 82, name: "Mayonnaise Jm's", category: "alimentaire", image: "images/mayo-jms.webp", description: "Mayonnaise Jm's", options: [{ type: "Pot", price: 0, unit: "1" }], isMarketplace: false },
 
-    { id: 83, name: "Coquillettes pm", category: "alimentaire", image: "images/Coquillettes-pm.webp", description: "Coquillettes petit modèle", options: [{ type: "Sachet", price: 0, unit: "pm" }], isMarketplace: false },
+    { id: 83, name: "Coquillettes pm", category: "alimentaire", image: "images/Coquillettes-pm.png", description: "Coquillettes petit modèle", options: [{ type: "Sachet", price: 0, unit: "pm" }], isMarketplace: false },
     { id: 84, name: "Coquillettes gm", category: "alimentaire", image: "images/Coquillettes-gm.webp", description: "Coquillettes grand modèle", options: [{ type: "Sachet", price: 0, unit: "gm" }], isMarketplace: false },
     { id: 85, name: "Vermicelle", category: "alimentaire", image: "images/vermicelle.webp", description: "Vermicelle", options: [{ type: "Sachet", price: 0, unit: "1" }], isMarketplace: false },
     { id: 86, name: "Indomie Grand", category: "alimentaire", image: "images/indomie-gm.webp", description: "Indomie grand format", options: [{ type: "Paquet", price: 0, unit: "gm" }], isMarketplace: false },
@@ -206,7 +206,7 @@ const products = [
     { id: 315, name: "Canette Sprite", category: "boisson", image: "images/sprite-canette.webp", description: "Boisson gazeuse", options: [{ type: "Canette", price: 400, unit: "canette" }], isMarketplace: false },
     { id: 316, name: "Sega 1.5L", category: "boisson", image: "images/sega_15.webp", description: "Boisson gazeuse", options: [{ type: "Bouteille", price: 800, unit: "1.5L" }], isMarketplace: false },
     { id: 317, name: "Schweppes Tonic", category: "boisson", image: "images/schweppes_tonic.webp", description: "Boisson gazeuse tonic", options: [{ type: "Bouteille", price: 500, unit: "bouteille" }], isMarketplace: false },
-    { id: 318, name: "Canette Mélange", category: "boisson", image: "images/melange_canette.webp", description: "Boisson mixte", options: [{ type: "Canette", price: 500, unit: "canette" }], isMarketplace: false },
+    { id: 318, name: "Canette Mélange", category: "boisson", image: "images/canette_melange.webp", description: "Boisson mixte", options: [{ type: "Canette", price: 500, unit: "canette" }], isMarketplace: false },
     { id: 319, name: "Youki Cocktail 0.5L", category: "boisson", image: "images/youki_cocktail.webp", description: "Boisson gazeuse fruitée", options: [{ type: "Bouteille", price: 300, unit: "0.5L" }], isMarketplace: false },
     { id: 320, name: "Youki Orange 1.5L", category: "boisson", image: "images/youki_orange_15.webp", description: "Boisson gazeuse à l'orange", options: [{ type: "Bouteille", price: 900, unit: "1.5L" }], isMarketplace: false },
     { id: 321, name: "Malta Guinness", category: "boisson", image: "images/malta_guinness.webp", description: "Boisson maltée non alcoolisée", options: [{ type: "Bouteille", price: 600, unit: "bouteille" }], isMarketplace: false },
