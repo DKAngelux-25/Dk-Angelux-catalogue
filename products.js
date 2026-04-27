@@ -55,7 +55,7 @@ const products = [
     { id: 46, name: "Pain P1", category: "alimentaire", image: "images/pain-500.webp", description: "Pain format 500f", options: [{ type: "Unité", price: 500, unit: "1" }], isMarketplace: false },
 
     { id: 47, name: "Lait Peak poudre boîte gm", category: "alimentaire", image: "images/lait-peak-boite.webp", description: "Lait en poudre grande boîte", options: [{ type: "Boîte", price: 0, unit: "gm" }], isMarketplace: false },
-    { id: 48, name: "Lait Peak poudre Sachet gm", category: "alimentaire", image: "images/lait-peak-sachet.webp", description: "Lait en poudre sachet", options: [{ type: "Sachet", price: 0, unit: "gm" }], isMarketplace: false },
+    { id: 48, name: "Lait Peak poudre Sachet gm", category: "alimentaire", image: "images/lait-peak-sachet.png", description: "Lait en poudre sachet", options: [{ type: "Sachet", price: 0, unit: "gm" }], isMarketplace: false },
     { id: 49, name: "Lait Peak moyen", category: "alimentaire", image: "images/lait-peak-moyen.webp", description: "Lait Peak format moyen", options: [{ type: "Boîte", price: 0, unit: "moyen" }], isMarketplace: false },
     { id: 50, name: "Lait Peak", category: "alimentaire", image: "images/lait-peak.webp", description: "Lait Peak", options: [{ type: "Boîte", price: 0, unit: "1" }], isMarketplace: false },
     { id: 51, name: "Lait Peak sachet", category: "alimentaire", image: "images/lait-peak-sachet.webp", description: "Lait Peak en sachet", options: [{ type: "Sachet", price: 0, unit: "1" }], isMarketplace: false },
@@ -199,7 +199,7 @@ const products = [
     { id: 308, name: "Eau Vitale 1.5L", category: "boisson", image: "images/eau_vitale_15.webp", description: "Eau minérale potable", options: [{ type: "Bouteille", price: 450, unit: "1.5L" }], isMarketplace: false },
     { id: 309, name: "Eau Vitale 5L", category: "boisson", image: "images/eau_vitale_5.webp", description: "Eau minérale potable", options: [{ type: "Bidon", price: 1400, unit: "5L" }], isMarketplace: false },
     { id: 310, name: "Coca-Cola", category: "boisson", image: "images/coca.webp", description: "Boisson gazeuse", options: [{ type: "Bouteille", price: 700, unit: "bouteille" }], isMarketplace: false },
-    { id: 311, name: "Canette Coca-Cola", category: "boisson", image: "images/coca_canette.webp", description: "Boisson gazeuse", options: [{ type: "Canette", price: 400, unit: "canette" }], isMarketplace: false },
+    { id: 311, name: "Canette Coca-Cola", category: "boisson", image: "images/coca-canette.png", description: "Boisson gazeuse", options: [{ type: "Canette", price: 500, unit: "canette" },{ type: "Paquet", price: 7500, unit: "Paquét" }], isMarketplace: false },
     { id: 312, name: "Fanta 1.5L", category: "boisson", image: "images/fanta_15.webp", description: "Boisson gazeuse", options: [{ type: "Bouteille", price: 900, unit: "1.5L" }], isMarketplace: false },
     { id: 313, name: "Canette Fanta", category: "boisson", image: "images/fanta_canette.webp", description: "Boisson gazeuse", options: [{ type: "Canette", price: 400, unit: "canette" }], isMarketplace: false },
     { id: 314, name: "Sprite 1.5L", category: "boisson", image: "images/sprite_15.webp", description: "Boisson gazeuse", options: [{ type: "Bouteille", price: 900, unit: "1.5L" }], isMarketplace: false },
