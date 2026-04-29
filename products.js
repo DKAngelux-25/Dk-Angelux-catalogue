@@ -187,7 +187,7 @@ const products = [
     { id: 257, name: "Dentifrice Aquafresh", category: "bricolage", image: "images/dentifrice-aquafresh.webp", description: "Dentifrice Aquafresh", options: [{ type: "Unité", price: 900, unit: "" }], isMarketplace: false },
     { id: 258, name: "Dentifrice Maxam gm", category: "bricolage", image: "images/dentifrice_maxam_gm.webp", description: "Dentifrice Maxam grand modèle", options: [{ type: "Unité", price: 700, unit: "" }], isMarketplace: false },
     { id: 259, name: "Dentifrice Maxam pm", category: "bricolage", image: "images/dentifrice_maxam_pm.webp", description: "Dentifrice Maxam petit modèle", options: [{ type: "Unité", price: 400, unit: "" }], isMarketplace: false },
-    { id: 260, name: "Rasoir lord II", category: "bricolage", image: "images/Rasoir-Lord-II.webp.webp", description: "rasoir barbe", options: [{ type: "Unité", price: 100, unit: "1" },{ type: "Paquet", price: 350, unit: "5" }], isMarketplace: false },
+    { id: 260, name: "Rasoir lord II", category: "bricolage", image: "images/Rasoir-Lord-II.webp", description: "rasoir barbe", options: [{ type: "Unité", price: 100, unit: "1" },{ type: "Paquet", price: 350, unit: "5" }], isMarketplace: false },
     { id: 261, name: "super-glue-Quality 1", category: "bricolage", image: "images/super-glue-Quality-1.webp", description: "Qualité 1", options: [{ type: "Unité", price: 150, unit: "" }], isMarketplace: false },
     { id: 262, name: "super-glue-Quality 2", category: "bricolage", image: "images/super-glue-Quality-2.webp", description: "Qualité 2", options: [{ type: "Unité", price: 200, unit: "" }], isMarketplace: false },
 
