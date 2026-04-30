@@ -190,6 +190,12 @@ const products = [
     { id: 260, name: "Rasoir lord II", category: "bricolage", image: "images/Rasoir-Lord-II.webp", description: "rasoir barbe", options: [{ type: "Unité", price: 100, unit: "1" },{ type: "Paquet", price: 350, unit: "5" }], isMarketplace: false },
     { id: 261, name: "super-glue-Quality 1", category: "bricolage", image: "images/super-glue-Quality-1.webp", description: "Qualité 1", options: [{ type: "Unité", price: 150, unit: "1" }], isMarketplace: false },
     { id: 262, name: "super-glue-Quality 2", category: "bricolage", image: "images/super-glue-Quality-2.webp", description: "Qualité 2", options: [{ type: "Unité", price: 200, unit: "1" }], isMarketplace: false },
+    { id: 263, name: "Omo genie", category: "bricolage", image: "images/omo_genie.png", description: "Omo genie lessive", options: [{ type: "pm", price: 25, unit: "1" }, { type: "moyen", price: 100, unit: "1" }, { type: "gm", price: 275, unit: "1" }], isMarketplace: false },
+    { id: 264, name: "Omo Viva", category: "bricolage", image: "images/omo_viva.png", description: "Omo viva lessive", options: [{ type: "moyen", price: 100, unit: "1" }, { type: "gm", price: 900, unit: "1" }], isMarketplace: false },
+    { id: 265, name: "Omo", category: "bricolage", image: "images/omo.png", description: "Omo lessive", options: [{ type: "gm", price: 1000, unit: "1" }], isMarketplace: false },
+    { id: 266, name: "Omo Klin", category: "bricolage", image: "images/omo_Klin.png", description: "Omo Klin lessive", options: [{ type: "pm", price: 50, unit: "1" }], isMarketplace: false },
+    { id: 267, name: "Pince habit", category: "bricolage", image: "images/pince.png", description: "Pince habit", options: [{ type: "pm", price: 600, unit: "1" }], isMarketplace: false },
+
 
     // Espace réservé bricolage (id 260 → 299)
 
@@ -326,6 +332,7 @@ const products = [
     { id: 601, name: "Couche bébé de 50", category: "bebe", image: "images/couche-bebe-50.webp", description: "Paquet de 50 couches bébé", options: [{ type: "Paquet", price: 8000, unit: "paquet" }], isMarketplace: false },
     { id: 602, name: "Couche Guetti F", category: "bebe", image: "images/couche-guetti-f.webp", description: "Couche Guetti taille F", options: [{ type: "Paquet", price: 5000, unit: "paquet" }], isMarketplace: false },
     { id: 603, name: "Berceau bébé", category: "bebe", image: "images/berceau_bebe.webp", description: "Berceau pour bébé", options: [{ type: "Pièce", price: 35000, unit: "pièce" }], isMarketplace: false },
+    { id: 604, name: "Coton tige bébé", category: "bebe", image: "images/coton-tige_bebe.png", description: "Coton tige pour enfant pour bébé", options: [{ type: "Pièce", price: 200, unit: "pièce" }], isMarketplace: false },
 
     // Espace réservé bébé (id 604 → 699)
 
