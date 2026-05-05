@@ -293,7 +293,7 @@ const products = [
     { id: 436, name: "Avocat", category: "Epice", image: "images/Avocat.webp", description: "Avocat", options: [{ type: "Pièce", price: 500, unit: "pièce" }], isMarketplace: false },
     { id: 437, name: "Raisins", category: "Epice", image: "images/Raisins.webp", description: "Raisins", options: [{ type: "Kg", price: 500, unit: "kg" }], isMarketplace: false },
     { id: 438, name: "Citron", category: "Epice", image: "images/Citron.webp", description: "Citron", options: [{ type: "Pièce", price: 500, unit: "pièce" }], isMarketplace: false },
-    { id: 439, name: "Pâte de maïs", category: "Epice", image: "images/pate_mais.webp", description: "Pâte de maïs", options: [{ type: "Boule", price: 50, unit: "boule" }], isMarketplace: false },
+    { id: 439, name: "Pâte de maïs", category: "Epice", image: "images/pate_mais.jpg", description: "Pâte de maïs", options: [{ type: "Boule", price: 50, unit: "boule" }], isMarketplace: false },
     { id: 440, name: "Pâte de manioc", category: "Epice", image: "images/pate-manioc.webp", description: "Pâte de manioc", options: [{ type: "Boule", price: 50, unit: "boule" }], isMarketplace: false },
     { id: 441, name: "Pâte d'arachide", category: "Epice", image: "images/pate-arachide.webp", description: "Pâte d'arachide", options: [{ type: "Pot gm", price: 500, unit: "pot" }, { type: "Pot pm", price: 250, unit: "pot" }], isMarketplace: false },
 
