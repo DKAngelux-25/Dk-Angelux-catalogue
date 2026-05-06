@@ -102,25 +102,30 @@ const products = [
     { id: 88, name: "Spaghetti Bonita", category: "alimentaire", image: "images/spaghetti-bonita.png", description: "Spaghetti Bonita", options: [{ type: "Paquet", price: 400, unit: "1" }, { type: "Carton", price: 6800, unit: "10" }], isMarketplace: false },
     { id: 89, name: "Spaghetti p-2", category: "alimentaire", image: "images/spaghetti-p2.webp", description: "Spaghetti paquet 2", options: [{ type: "Paquet", price: 300, unit: "1" }, { type: "Carton", price: 5500, unit: "10" }], isMarketplace: false },
     { id: 90, name: "Spaghetti p-1", category: "alimentaire", image: "images/spaghetti-p1.png", description: "Spaghetti paquet 1", options: [{ type: "Paquet", price: 250, unit: "1" }, { type: "Carton", price: 4500, unit: "10" }], isMarketplace: false },
-    { id: 91, name: "Spiral Rad gm", category: "alimentaire", image: "images/spiral-rad-gm.webp", description: "Pâtes spiralées grand modèle", options: [{ type: "Paquet", price: 400, unit: "gm" }, { type: "Carton", price: 11000, unit: "24" }], isMarketplace: false },
+    { id: 91, name: "Spagheti Gros grain", category: "alimentaire", image: "images/Spa-gros.png", description: "Spaghetti gros", options: [{ type: "Sachet", price: 500, unit: "gm" }, { type: "Carton", price: 4800, unit: "10" }], isMarketplace: false },
     { id: 92, name: "Beurre 250g", category: "alimentaire", image: "images/beurre-250g.webp", description: "Beurre 250g", options: [{ type: "Plaquette", price: 1500, unit: "250g" }], isMarketplace: false },
+    { id: 93, name: "Beurre pm", category: "alimentaire", image: "images/Beurre-50.png", description: "Beurre pm", options: [{ type: "Plaquette", price: 50, unit: "1" }], isMarketplace: false },
+    { id: 94, name: "Beurre Evita", category: "alimentaire", image: "images/Evita.webp", description: "Beurre Evita", options: [{ type: "Plaquette", price: 500, unit: "1" }], isMarketplace: false },
 
-    { id: 93, name: "Sucre standard", category: "alimentaire", image: "images/sucre-standard.webp", description: "Sucre 1kg", options: [{ type: "Sac", price: 700, unit: "1kg" }, { type: "Sac", price: 15000, unit: "25kg" }], isMarketplace: false },
-    { id: 94, name: "Sucre roux", category: "alimentaire", image: "images/sucre-roux.webp", description: "Sucre roux", options: [{ type: "Sac", price: 2200, unit: "1kg" }], isMarketplace: false },
-    { id: 95, name: "Sucre St Louis gm", category: "alimentaire", image: "images/sucre-stlouis-gm.webp", description: "Sucre St Louis grand modèle", options: [{ type: "Sac", price: 1200, unit: "gm" }], isMarketplace: false },
-    { id: 96, name: "Sucre St Louis pm", category: "alimentaire", image: "images/sucre-st-louis-pm.webp", description: "Sucre St Louis petit modèle", options: [{ type: "Sac", price: 700, unit: "pm" }], isMarketplace: false },
-    { id: 97, name: "Vinaigre Rouge", category: "alimentaire", image: "images/vinaigre-rouge.webp", description: "Vinaigre rouge", options: [{ type: "Bouteille", price: 500, unit: "1" }], isMarketplace: false },
-    { id: 98, name: "Vinaigre Blanc", category: "alimentaire", image: "images/vinaigre-blanc.webp", description: "Vinaigre blanc", options: [{ type: "Bouteille", price: 500, unit: "1" }], isMarketplace: false },
-    { id: 99, name: "Petit pois Bonduelle", category: "alimentaire", image: "images/petit-pois.webp", description: "Petit pois Bonduelle", options: [{ type: "Boîte", price: 700, unit: "1" }, { type: "Carton", price: 13000, unit: "12" }], isMarketplace: false },
-    { id: 100, name: "Tomate Aicha Moyen", category: "alimentaire", image: "images/tomate-aicha.webp", description: "Tomate Aicha format moyen", options: [{ type: "Boîte", price: 450, unit: "moyen" }, { type: "Carton", price: 5000, unit: "12" }], isMarketplace: false },
-    { id: 101, name: "Tomate demi", category: "alimentaire", image: "images/tomate-demi.webp", description: "Tomate demi boîte", options: [{ type: "Boîte", price: 250, unit: "demi" }, { type: "Carton", price: 2800, unit: "12" }], isMarketplace: false },
-    { id: 102, name: "Tomate sachet", category: "alimentaire", image: "images/tomate-sachet.webp", description: "Tomate concentré en sachet", options: [{ type: "sachet", price: 100, unit: "1" }, { type: "Carton", price: 4800, unit: "24" }], isMarketplace: false },
-    { id: 103, name: "Sardine de variétés", category: "alimentaire", image: "images/sardine-variete.jpg", description: "Sardines variées", options: [{ type: "Boîte", price: 300, unit: "1" }, { type: "Carton", price: 8000, unit: "12" }], isMarketplace: false },
-    { id: 104, name: "Sardines Apollo", category: "alimentaire", image: "images/sardine-apollo.webp", description: "Sardines Apollo", options: [{ type: "Boîte", price: 400, unit: "1" }, { type: "Carton", price: 8500, unit: "12" }], isMarketplace: false },
-    { id: 105, name: "Sardines Safy", category: "alimentaire", image: "images/sardine-safy.webp", description: "Sardines Safy", options: [{ type: "Boîte", price: 500, unit: "1" }, { type: "Carton", price: 8500, unit: "12" }], isMarketplace: false },
-    { id: 106, name: "Sardine Tinapa 555", category: "alimentaire", image: "images/sardine-555.webp", description: "Sardine Tinapa 555", options: [{ type: "Boîte", price: 550, unit: "1" }, { type: "Carton", price: 10000, unit: "12" }], isMarketplace: false },
-    { id: 107, name: "Oeuf 1 Plateau", category: "alimentaire", image: "images/oeuf-plateau.webp", description: "Plateau d'œufs", options: [{ type: "Plateau", price: 2800, unit: "1" }, { type: "Unité", price: 100, unit: "1" }], isMarketplace: false },
-    { id: 108, name: "Maïs en boite", category: "alimentaire", image: "images/maïs.png", description: "Maïs en boite", options: [{ type: "Boîte", price: 550, unit: "1" }, { type: "Carton", price: 6000, unit: "12" }], isMarketplace: false },
+    { id: 95, name: "Sucre standard", category: "alimentaire", image: "images/sucre-standard.webp", description: "Sucre 1kg", options: [{ type: "Sac", price: 700, unit: "1kg" }, { type: "Sac", price: 15000, unit: "25kg" }], isMarketplace: false },
+    { id: 96, name: "Sucre roux", category: "alimentaire", image: "images/sucre-roux.webp", description: "Sucre roux", options: [{ type: "Sac", price: 2200, unit: "1kg" }], isMarketplace: false },
+    { id: 97, name: "Sucre St Louis gm", category: "alimentaire", image: "images/sucre-stlouis-gm.webp", description: "Sucre St Louis grand modèle", options: [{ type: "Sac", price: 1200, unit: "gm" }], isMarketplace: false },
+    { id: 98, name: "Sucre St Louis pm", category: "alimentaire", image: "images/sucre-st-louis-pm.webp", description: "Sucre St Louis petit modèle", options: [{ type: "Sac", price: 700, unit: "pm" }], isMarketplace: false },
+    { id: 99, name: "Vinaigre Rouge", category: "alimentaire", image: "images/vinaigre-rouge.webp", description: "Vinaigre rouge", options: [{ type: "Bouteille", price: 500, unit: "1" }], isMarketplace: false },
+    { id: 100, name: "Vinaigre Blanc", category: "alimentaire", image: "images/vinaigre-blanc.webp", description: "Vinaigre blanc", options: [{ type: "Bouteille", price: 500, unit: "1" }], isMarketplace: false },
+    { id: 101, name: "Petit pois Bonduelle", category: "alimentaire", image: "images/petit-pois.webp", description: "Petit pois Bonduelle", options: [{ type: "Boîte", price: 700, unit: "1" }, { type: "Carton", price: 13000, unit: "12" }], isMarketplace: false },
+    { id: 102, name: "Tomate Aicha Moyen", category: "alimentaire", image: "images/tomate-aicha.webp", description: "Tomate Aicha format moyen", options: [{ type: "Boîte", price: 450, unit: "moyen" }, { type: "Carton", price: 5000, unit: "12" }], isMarketplace: false },
+    { id: 103, name: "Tomate demi", category: "alimentaire", image: "images/tomate-demi.webp", description: "Tomate demi boîte", options: [{ type: "Boîte", price: 250, unit: "demi" }, { type: "Carton", price: 2800, unit: "12" }], isMarketplace: false },
+    { id: 104, name: "Tomate sachet", category: "alimentaire", image: "images/tomate-sachet.webp", description: "Tomate concentré en sachet", options: [{ type: "sachet", price: 100, unit: "1" }, { type: "Carton", price: 4800, unit: "24" }], isMarketplace: false },
+    { id: 105, name: "Sardine de variétés", category: "alimentaire", image: "images/sardine-variete.jpg", description: "Sardines variées", options: [{ type: "Boîte", price: 300, unit: "1" }, { type: "Carton", price: 8000, unit: "12" }], isMarketplace: false },
+    { id: 106, name: "Sardines Apollo", category: "alimentaire", image: "images/sardine-apollo.webp", description: "Sardines Apollo", options: [{ type: "Boîte", price: 400, unit: "1" }, { type: "Carton", price: 8500, unit: "12" }], isMarketplace: false },
+    { id: 107, name: "Sardines Safy", category: "alimentaire", image: "images/sardine-safy.webp", description: "Sardines Safy", options: [{ type: "Boîte", price: 500, unit: "1" }, { type: "Carton", price: 8500, unit: "12" }], isMarketplace: false },
+    { id: 108, name: "Sardine Tinapa 555", category: "alimentaire", image: "images/sardine-555.webp", description: "Sardine Tinapa 555", options: [{ type: "Boîte", price: 550, unit: "1" }, { type: "Carton", price: 10000, unit: "12" }], isMarketplace: false },
+    { id: 109, name: "Oeuf 1 Plateau", category: "alimentaire", image: "images/oeuf-plateau.webp", description: "Plateau d'œufs", options: [{ type: "Plateau", price: 2800, unit: "1" }, { type: "Unité", price: 100, unit: "1" }], isMarketplace: false },
+    { id: 110, name: "Maïs en boite", category: "alimentaire", image: "images/maïs.png", description: "Maïs en boite", options: [{ type: "Boîte", price: 550, unit: "1" }, { type: "Carton", price: 6000, unit: "12" }], isMarketplace: false },
+    { id: 111, name: "Kivo Gari mix", category: "alimentaire", image: "images/Gari-mix.jpg", description: "Maïs en boite", options: [{ type: "Boîte", price: 550, unit: "1" }, { type: "Carton", price: 6000, unit: "12" }], isMarketplace: false },
+    { id: 112, name: "Tomate concentré gm ", category: "alimentaire", image: "images/Tomate-gm.jpg", description: "Tomate concentyré gm", options: [{ type: "pm", price: 2200, unit: "1" }], isMarketplace: false },
+    { id: 113, name: "Tomate concentré pm ", category: "alimentaire", image: "images/Tomate-pm.webp", description: "Tomate concentyré pm", options: [{ type: "pm", price: 100, unit: "1" }], isMarketplace: false },
 
     // Espace réservé alimentaire (id 109 → 199)
 
@@ -195,6 +200,12 @@ const products = [
     { id: 265, name: "Omo", category: "bricolage", image: "images/omo.png", description: "Omo lessive", options: [{ type: "gm", price: 1000, unit: "1" }], isMarketplace: false },
     { id: 266, name: "Omo Klin", category: "bricolage", image: "images/omo_Klin.png", description: "Omo Klin lessive", options: [{ type: "pm", price: 50, unit: "1" }], isMarketplace: false },
     { id: 267, name: "Pince habit", category: "bricolage", image: "images/pince.png", description: "Pince habit", options: [{ type: "pm", price: 600, unit: "1" }], isMarketplace: false },
+    { id: 268, name: "Spiral Rad gm", category: "bricolage", image: "images/spiral-rad-gm.webp", description: "Pâtes spiralées grand modèle", options: [{ type: "Paquet", price: 400, unit: "gm" }, { type: "Carton", price: 11000, unit: "24" }], isMarketplace: false },
+    { id: 269, name: "Spiral Fatal gm", category: "bricolage", image: "images/Fatal.jpg", description: "Pâtes spiralées grand modèle", options: [{ type: "Paquet", price: 350, unit: "gm" }, { type: "Carton", price: 18500, unit: "50" }], isMarketplace: false },
+    { id: 270, name: "Spiral Bébé-Maman gm", category: "bricolage", image: "images/Bébé-maman.webp", description: "Pâtes spiralées grand modèle", options: [{ type: "Paquet", price: 400, unit: "gm" }, { type: "Carton", price: 11000, unit: "24" }], isMarketplace: false },
+    { id: 271, name: "Incerticide Rad gm", category: "bricolage", image: "images/Incerticide-Rad.jpg", description: "Incerticide Rad gm grand modèle", options: [{ type: "Paquet", price: 1000, unit: "gm" }, { type: "Carton", price: 23000, unit: "24" }], isMarketplace: false },
+    { id: 272, name: "Incerticide Fatal gm", category: "bricolage", image: "images/fatal.jpg", description: "Incerticide Fatal gm grand modèle", options: [{ type: "Paquet", price: 1200, unit: "gm" }, { type: "Carton", price: 23000, unit: "24" }], isMarketplace: false },
+    
 
 
     // Espace réservé bricolage (id 260 → 299)
@@ -296,6 +307,10 @@ const products = [
     { id: 439, name: "Pâte de maïs", category: "Epice", image: "images/pate_mais.jpg", description: "Pâte de maïs", options: [{ type: "Boule", price: 50, unit: "boule" }], isMarketplace: false },
     { id: 440, name: "Pâte de manioc", category: "Epice", image: "images/pate-manioc.webp", description: "Pâte de manioc", options: [{ type: "Boule", price: 50, unit: "boule" }], isMarketplace: false },
     { id: 441, name: "Pâte d'arachide", category: "Epice", image: "images/pate-arachide.webp", description: "Pâte d'arachide", options: [{ type: "Pot gm", price: 500, unit: "pot" }, { type: "Pot pm", price: 250, unit: "pot" }], isMarketplace: false },
+    { id: 442, name: "kivo condiment", category: "Epice", image: "images/kivo-cond.webp", description: "Kivo pour la préparation de la viande", options: [{ type: "Sachet", price: 100, unit: "pièce" }], isMarketplace: false },
+    { id: 443, name: "kivo Curry plus", category: "Epice", image: "images/Curry-plus.jpg", description: "Kivo pour la préparation de la viande", options: [{ type: "Sachet", price: 100, unit: "pièce" }], isMarketplace: false },
+    { id: 444, name: "kivo Rosemary", category: "Epice", image: "images/Rosemary.jpg", description: "Kivo pour la préparation de la viande", options: [{ type: "Sachet", price: 100, unit: "pièce" }], isMarketplace: false },
+
 
     // Espace réservé épices (id 442 → 499)
 
@@ -331,7 +346,7 @@ const products = [
     { id: 600, name: "Trousseau bébé", category: "bebe", image: "images/trousseau_bebe.webp", description: "Trousseau complet pour bébé", options: [{ type: "Kit", price: 15000, unit: "kit" }], isMarketplace: false },
     { id: 601, name: "Couche bébé de 50", category: "bebe", image: "images/couche-bebe-50.webp", description: "Paquet de 50 couches bébé", options: [{ type: "Paquet", price: 8000, unit: "paquet" }], isMarketplace: false },
     { id: 602, name: "Couche Guetti F", category: "bebe", image: "images/couche-guetti-f.webp", description: "Couche Guetti taille F", options: [{ type: "Paquet", price: 5000, unit: "paquet" }], isMarketplace: false },
-    { id: 603, name: "Berceau bébé", category: "bebe", image: "images/berceau_bebe.webp", description: "Berceau pour bébé", options: [{ type: "Pièce", price: 35000, unit: "pièce" }], isMarketplace: false },
+    { id: 603, name: "Berceau bébé", category: "bebe", image: "images/Berceau.webp", description: "Berceau pour bébé", options: [{ type: "Pièce", price: 35000, unit: "pièce" }], isMarketplace: false },
     { id: 604, name: "Coton tige bébé", category: "bebe", image: "images/coton-tige_bebe.png", description: "Coton tige pour enfant pour bébé", options: [{ type: "Pièce", price: 200, unit: "pièce" }], isMarketplace: false },
 
     // Espace réservé bébé (id 604 → 699)
