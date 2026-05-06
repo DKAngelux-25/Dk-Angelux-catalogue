@@ -257,7 +257,7 @@ const products = [
     { id: 341, name: "Café Rhum grande bouteille", category: "boisson", image: "images/cafe_rhum_grand.webp", description: "Boisson alcoolisée", options: [{ type: "Bouteille", price: 1500, unit: "bouteille" }], isMarketplace: false },
     { id: 342, name: "Café Rhum sachet", category: "boisson", image: "images/cafe-rhum.webp", description: "Boisson en sachet", options: [{ type: "Sachet", price: 100, unit: "sachet" }, { type: "Carton", price: 2200, unit: "24" }], isMarketplace: false },
     { id: 343, name: "Lipton 1 paquet", category: "boisson", image: "images/lipton.webp", description: "Thé Lipton", options: [{ type: "Paquet", price: 1200, unit: "paquet" }], isMarketplace: false },
-    { id: 344, name: "Warba", category: "boisson", image: "images/warba.webp", description: "Boisson locale", options: [{ type: "Sachet", price: 150, unit: "sachet" }, { type: "Carton", price: 3500, unit: "24" }], isMarketplace: false },
+    { id: 344, name: "Warba", category: "boisson", image: "images/warba.jpg", description: "Boisson locale", options: [{ type: "Sachet", price: 150, unit: "sachet" }, { type: "Carton", price: 3500, unit: "24" }], isMarketplace: false },
 
     // Espace réservé boisson (id 345 → 399)
 
