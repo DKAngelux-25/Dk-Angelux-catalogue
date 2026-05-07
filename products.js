@@ -205,6 +205,19 @@ const products = [
     { id: 270, name: "Spiral Bébé-Maman gm", category: "bricolage", image: "images/Bébé-maman.webp", description: "Pâtes spiralées grand modèle", options: [{ type: "Paquet", price: 400, unit: "gm" }, { type: "Carton", price: 11000, unit: "24" }], isMarketplace: false },
     { id: 271, name: "Incerticide Rad gm", category: "bricolage", image: "images/Incerticide-Rad.jpg", description: "Incerticide Rad gm grand modèle", options: [{ type: "Paquet", price: 1000, unit: "gm" }, { type: "Carton", price: 23000, unit: "24" }], isMarketplace: false },
     { id: 272, name: "Incerticide Fatal gm", category: "bricolage", image: "images/fatal.jpg", description: "Incerticide Fatal gm grand modèle", options: [{ type: "Paquet", price: 1200, unit: "gm" }, { type: "Carton", price: 23000, unit: "24" }], isMarketplace: false },
+    { id: 273, name: "Mini Hoofer", category: "bricolage", image: "images/Mini-h.jpg", description: "Mini Hoofer", options: [{ type: "pm", price: 6500, unit: "1" }], isMarketplace: true },
+    { id: 274, name: "Mini Hoofer", category: "bricolage", image: "images/Mini-h1.jpg", description: "Mini Hoofer", options: [{ type: "pm", price: 5500, unit: "1" }], isMarketplace: true },
+    { id: 275, name: "Hoofer", category: "bricolage", image: "images/Mini-h2.jpg", description: "Hoofer", options: [{ type: "pm", price: 12500, unit: "1" }], isMarketplace: true },
+    { id: 276, name: "Hoofer", category: "bricolage", image: "images/Mini-h3.jpg", description: "Hoofer", options: [{ type: "pm", price: 45000, unit: "1" }], isMarketplace: true },
+    { id: 277, name: "Hoofer", category: "bricolage", image: "images/Mini-h4.jpg", description: "Hoofer", options: [{ type: "pm", price: 35000, unit: "1" }], isMarketplace: true },
+    { id: 278, name: "Hoofer", category: "bricolage", image: "images/Mini-h5.jpg", description: "Hoofer", options: [{ type: "pm", price: 25000, unit: "1" }], isMarketplace: true },
+    { id: 279, name: "Hoofer", category: "bricolage", image: "images/Mini-h6.jpg", description: "Hoofer", options: [{ type: "pm", price: 65000, unit: "1" }], isMarketplace: true },
+    { id: 280, name: "Téléphone Itel", category: "bricolage", image: "images/Porta-1.jpg", description: "Portable a touche", options: [{ type: "pm", price: 6000, unit: "1" }], isMarketplace: true },
+    { id: 281, name: "Téléphone Yaco", category: "bricolage", image: "images/Porta-2.jpg", description: "Portable a touche", options: [{ type: "pm", price: 7000, unit: "1" }], isMarketplace: true },
+    { id: 282, name: "Téléphone Nokia", category: "bricolage", image: "images/Porta-3.jpg", description: "Portable a touche", options: [{ type: "pm", price: 5000, unit: "1" }], isMarketplace: true },
+    { id: 283, name: "Téléphone Tecno", category: "bricolage", image: "images/Porta-4.jpg", description: "Portable a touche", options: [{ type: "pm", price: 5500, unit: "1" }], isMarketplace: true },
+    { id: 284, name: "Téléphone Samsung", category: "bricolage", image: "images/Porta-5.jpg", description: "Portable a touche", options: [{ type: "pm", price: 5000, unit: "1" }], isMarketplace: true },
+    { id: 285, name: "Téléphone shem", category: "bricolage", image: "images/Porta-6.jpg", description: "Portable a touche", options: [{ type: "pm", price: 3500, unit: "1" }], isMarketplace: true },
     
 
 
